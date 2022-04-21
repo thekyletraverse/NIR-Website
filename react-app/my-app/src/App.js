@@ -3,11 +3,15 @@ import './App.css';
 import monst from './NI Monster.png'
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./Navigation.js";
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import useSound from 'use-sound';
 import { Button, Container} from 'react-bootstrap'
 import music from './JAZZ VIBES.mp3';
-import React, { useState } from 'react';
+import React, { useState, Component } from 'react';
+
+import Music from './components/Music';
+import Artists from './components/Artits;
+import Navigation from './Navigation';
 
 
 function App() {
@@ -22,13 +26,32 @@ function App() {
     );
 
 
-
+render() {
   return (
+    <BrowserRouter>
     <div className="App">
     <div>
     <Navbar />
+    <Switch>
+             <Route path="/" component={Music} exact/>
+             <Route path="/about" component={Artists}/>
+           </Switch>
       <header className="App-header">
         <img src={monst} className="App-logo" alt="logo" />
+        <Button
+            onMouseEnter={() => {
+              setIsHovering(true);
+              play();
+            }}
+            onMouseLeave={() => {
+              setIsHovering(false);
+              stop();
+            }}
+          >
+          <span role="img" aria-label="trumpet">
+       LISTEN
+     </span>
+          </Button>
         <a
           className="bg-image"
           href="https://reactjs.org"
@@ -37,27 +60,14 @@ function App() {
         >
         </a>
       </header>
-      <Button
-          onMouseEnter={() => {
-            setIsHovering(true);
-            play();
-          }}
-          onMouseLeave={() => {
-            setIsHovering(false);
-            stop();
-          }}
-        >
-        <span role="img" aria-label="trumpet">
-     🎺
-   </span>
-        </Button>
-  
-    </div>
+
 
     </div>
 
+    </div>
+</BrowserRouter>
 
   );
 }
-
+}
 export default App;
