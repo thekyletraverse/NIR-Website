@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import monst from './NI Monster.png'
-import cloud from './pngtree-white-cartoon-clouds-clipart-png-image_2396075.jpeg'
+import cloud from './2-21664_cartoon-cloud-with-blue-background-clipart-cloud-clip.png'
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./Navigation.js";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
