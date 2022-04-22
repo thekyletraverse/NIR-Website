@@ -3,12 +3,11 @@ import './App.css';
 import monst from './NI Monster.png'
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./Navigation.js";
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import useSound from 'use-sound';
 import { Button, Container} from 'react-bootstrap'
-import music from './JAZZ VIBES.mp3';
-import React, { useState, Component } from 'react';
-
+import music from './react-app_my-app_src_JAZZ VIBES.mp3';
+import React, { useState } from 'react';
 
 
 function App() {
@@ -23,9 +22,8 @@ function App() {
     );
 
 
-render() ;{
+
   return (
-    <BrowserRouter>
     <div className="App">
     <div>
     <Navbar />
@@ -58,9 +56,9 @@ render() ;{
     </div>
 
     </div>
-</BrowserRouter>
+
 
   );
 }
-}
+
 export default App;

@@ -1,6 +1,5 @@
 import React from "react";
 import { Button, Navbar, Container} from 'react-bootstrap'
-import { NavLink } from 'react-router-dom';
 
 const Navigation = () => {
   return (
@@ -14,11 +13,6 @@ const Navigation = () => {
     </Navbar.Brand>
   </Container>
   </Navbar>
-  <div>
-          <NavLink to="/">Home</NavLink>
-          <NavLink to="/about">About</NavLink>
-          <NavLink to="/contact">Contact</NavLink>
-       </div>
 
 </>
   );
