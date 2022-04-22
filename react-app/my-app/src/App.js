@@ -1,13 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
 import monst from './NI Monster.png'
+import cloud from './pngtree-white-cartoon-clouds-clipart-png-image_2396075.jpeg'
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./Navigation.js";
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import useSound from 'use-sound';
 import { Button, Container} from 'react-bootstrap'
 import music from './react-app_my-app_src_JAZZ VIBES.mp3';
 import React, { useState } from 'react';
+
 
 
 function App() {
@@ -25,24 +27,42 @@ function App() {
 
   return (
     <div className="App">
+
     <div>
+
     <Navbar />
+
       <header className="App-header">
-        <img src={monst} className="App-logo" alt="logo" />
-        <Button
-            onMouseEnter={() => {
-              setIsHovering(true);
-              play();
-            }}
-            onMouseLeave={() => {
-              setIsHovering(false);
-              stop();
-            }}
-          >
-          <span role="img" aria-label="trumpet">
-       LISTEN
-     </span>
-          </Button>
+        <div class="row">
+          <div class="col">
+            <img src={monst} className="App-logo" alt="logo" />
+          </div>
+        </div>
+        <img src={cloud} className ="App-logo" alt="logo"/>
+        <div class="row">
+          <div class="col">
+          <h1>Hover to Play</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+          <Button
+              onMouseEnter={() => {
+                setIsHovering(true);
+                play();
+              }}
+              onMouseLeave={() => {
+                setIsHovering(false);
+                stop();
+              }}
+            >
+            <span role="img" aria-label="trumpet">
+          HOVER
+          </span>
+            </Button>
+          </div>
+        </div>
+
         <a
           className="bg-image"
           href="https://reactjs.org"
