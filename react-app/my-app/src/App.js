@@ -9,9 +9,6 @@ import { Button, Container} from 'react-bootstrap'
 import music from './JAZZ VIBES.mp3';
 import React, { useState, Component } from 'react';
 
-import Music from './components/Music';
-import Artists from './components/Artits;
-import Navigation from './Navigation';
 
 
 function App() {
@@ -26,16 +23,12 @@ function App() {
     );
 
 
-render() {
+render() ;{
   return (
     <BrowserRouter>
     <div className="App">
     <div>
     <Navbar />
-    <Switch>
-             <Route path="/" component={Music} exact/>
-             <Route path="/about" component={Artists}/>
-           </Switch>
       <header className="App-header">
         <img src={monst} className="App-logo" alt="logo" />
         <Button
