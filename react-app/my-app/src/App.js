@@ -4,13 +4,14 @@ import monst from './NI Monster.png'
 import cloud from './Cartoon-cloud-on-transparent-background-PNG.png'
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./Navigation.js";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Switch } from "react-router-dom";
 import useSound from 'use-sound';
 import { Button, Container} from 'react-bootstrap'
 import music from './react-app_my-app_src_JAZZ VIBES.mp3';
 import React, { useState } from 'react';
 import Footer from './footer'
 import { FaPlay} from 'react-icons/fa';
+import Shop from "./Shop";
 
 
 
@@ -28,12 +29,13 @@ function App() {
 
 
   return (
+    <Router>
     <div className="App">
 
     <div>
 
     <Navbar />
-
+    
       <header className="App-header">
         <div class="row-8">
           <div style={{ height: 165, marginTop: 6 }}class="col">
@@ -86,7 +88,7 @@ function App() {
     </div>
 
     </div>
-
+</Router>
 
   );
 }

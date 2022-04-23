@@ -2,6 +2,8 @@ import React from "react";
 import { Button, Navbar, Container} from 'react-bootstrap'
 import { Link } from "react-router-dom";
 import Nav from "react-bootstrap/Nav";
+import { LinkContainer } from "react-router-bootstrap";
+
 
 const Navigation = () => {
   return (
@@ -14,7 +16,7 @@ const Navigation = () => {
         height="135"/>
     </Navbar.Brand>
     <Nav className="nav-link">
-      <Nav.Link href="#artists">Artists</Nav.Link>
+      <Nav.Link href="#artits">Artists</Nav.Link>
       <Nav.Link href="#music">Music</Nav.Link>
       <Nav.Link href="#videos">Videos</Nav.Link>
       <Nav.Link href="#shop">Shop</Nav.Link>
