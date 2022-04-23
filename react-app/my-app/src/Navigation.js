@@ -16,11 +16,11 @@ const Navigation = () => {
         height="135"/>
     </Navbar.Brand>
     <Nav className="nav-link">
-      <Nav.Link href="#artits">Artists</Nav.Link>
-      <Nav.Link href="#music">Music</Nav.Link>
-      <Nav.Link href="#videos">Videos</Nav.Link>
-      <Nav.Link href="#shop">Shop</Nav.Link>
-      <Nav.Link href="#subscribe">Subscribe</Nav.Link>
+      <Nav.Link as={Link} to="/artists">Artists</Nav.Link>
+      <Nav.Link href="/music">Music</Nav.Link>
+      <Nav.Link href="/videos">Videos</Nav.Link>
+      <Nav.Link href="/shop">Shop</Nav.Link>
+      <Nav.Link href="/subscribe">Subscribe</Nav.Link>
     </Nav>
   </Container>
   </Navbar>
