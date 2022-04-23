@@ -10,8 +10,8 @@ const Navigation = () => {
   <Navbar bg="light" variant="light">
   <Container>
     <Navbar.Brand href="#home">
-      <img src={require('.//Nothing Iconic Reccords.png')} width="150"
-        height="150"/>
+      <img src={require('.//Nothing Iconic Reccords.png')} width="135"
+        height="135"/>
     </Navbar.Brand>
     <Nav className="nav-link">
       <Nav.Link href="#artists">Artists</Nav.Link>
