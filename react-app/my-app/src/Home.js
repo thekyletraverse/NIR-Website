@@ -1,7 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
 import monst from './NI Monster.png'
-import cloud from './Cartoon-cloud-on-transparent-background-PNG.png'
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./Navigation.js";
 import { BrowserRouter as Router, Routes, Route, Switch } from "react-router-dom";
@@ -10,9 +9,9 @@ import { Button, Container} from 'react-bootstrap'
 import music from './react-app_my-app_src_JAZZ VIBES.mp3';
 import React, { useState } from 'react';
 import Footer from './footer'
-import { FaPlay} from 'react-icons/fa';
+import { FaPlay, FaCloud} from 'react-icons/fa';
 import Shop from "./Shop.js";
-import Artists from "./Artists.js";
+import Artists from './Artists.js';
 import Music from "./Music.js";
 
 
@@ -57,24 +56,17 @@ function Home() {
             </Button>
           </div>
           <div class="col">
-
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-
-          <img src={monst} width="240"
-            height="120" className="App-logo" alt="logo" />
-          </div>
-        </div>
-        <div class="row align-items-end">
-          <div class="col">
-
+             <FaCloud class="Cloud-logo"size="lg"/>
+             <img src={monst} width="300"
+               height="120" className="App-logo" alt="logo" />
           </div>
           <div class="col">
-
+           <FaCloud class="Cloud-logo2" size="lg"/>
+          <FaCloud class="Cloud-logo" size="sm"/>
           </div>
         </div>
+
+
 
         <a
           className="bg-image"

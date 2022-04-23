@@ -9,9 +9,31 @@
   pointer-events: none;
 }
 
+.Cloud-logo {
+  height: 30vmin;
+  pointer-events: none;
+}
+
+.Cloud-logo2 {
+  height: 30vmin;
+  pointer-events: none;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 50s linear;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .Cloud-logo {
+    animation: cloud1 infinite 50s linear;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .Cloud-logo2 {
+    animation: cloud2 infinite 50s linear;
   }
 }
 .h1{
@@ -20,7 +42,7 @@
 }
 .App-header {
   background-color: #19A6F6;
-  min-height: 85vh;
+  min-height: 30vh;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -43,3 +65,15 @@
     transform: rotate(360deg);
   }
 }
+
+@keyframes cloud1 {
+      from{transform: translate3d(-850px,0px,0px)}
+      /* If you just right, the number with a minus in front -850px */
+      to{transform: translate3d(0px,0px,0px)}
+  }
+
+  @keyframes cloud2 {
+        from{transform: translate3d(0px,0px,0px)}
+        /* If you just right, the number with a minus in front -850px */
+        to{transform: translate3d(-850px,0px,0px)}
+    }
