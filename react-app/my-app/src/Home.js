@@ -10,9 +10,6 @@ import music from './react-app_my-app_src_JAZZ VIBES.mp3';
 import React, { useState } from 'react';
 import Footer from './footer'
 import { FaPlay, FaCloud} from 'react-icons/fa';
-import Shop from "./Shop.js";
-import Artists from './Artists.js';
-import Music from "./Music.js";
 
 
 

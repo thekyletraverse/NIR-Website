@@ -1,5 +1,11 @@
 import React from "react";
 
-export default function About() {
-  return <div>About page</div>;
-}
+const Artists = () => {
+  return (
+    <section className="Artists">
+      <h1>This is the About page</h1>
+    </section>
+  );
+};
+
+export default Artists;
