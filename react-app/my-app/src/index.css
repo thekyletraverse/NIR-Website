@@ -15,3 +15,25 @@ code {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.footer{
+
+  padding: 10px;
+  background-color: rgb(235, 195, 64);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 40px;
+  width: 100%;
+
+borderTop: 1px solid #E7E7E7;
+textAlign: center;
+
+}
+
+.nav-link{
+  font: normal small-caps normal 36px/1.4 Georgia;
+  color: #2699FB !important;
+  font-style: oblique 23deg;
+
+}

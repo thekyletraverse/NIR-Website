@@ -9,6 +9,7 @@ import useSound from 'use-sound';
 import { Button, Container} from 'react-bootstrap'
 import music from './react-app_my-app_src_JAZZ VIBES.mp3';
 import React, { useState } from 'react';
+import Footer from './footer'
 
 
 
@@ -37,8 +38,11 @@ function App() {
           <div class="col">
             <img src={monst} className="App-logo" alt="logo" />
           </div>
+          <div class="col">
+          <img src={cloud} width="150"
+            height="150"className ="App" alt="logo"/>
+          </div>
         </div>
-        <img src={cloud} className ="App-logo" alt="logo"/>
         <div class="row">
           <div class="col">
           <h1>Hover to Play</h1>
@@ -72,7 +76,7 @@ function App() {
         </a>
       </header>
 
-
+<Footer/>
     </div>
 
     </div>

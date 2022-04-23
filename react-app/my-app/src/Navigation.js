@@ -13,10 +13,12 @@ const Navigation = () => {
       <img src={require('.//Nothing Iconic Reccords.png')} width="150"
         height="150"/>
     </Navbar.Brand>
-    <Nav className="me-auto">
-      <Nav.Link href="#home">Home</Nav.Link>
-      <Nav.Link href="#features">Features</Nav.Link>
-      <Nav.Link href="#pricing">Pricing</Nav.Link>
+    <Nav className="nav-link">
+      <Nav.Link href="#artists">Artists</Nav.Link>
+      <Nav.Link href="#music">Music</Nav.Link>
+      <Nav.Link href="#videos">Videos</Nav.Link>
+      <Nav.Link href="#shop">Shop</Nav.Link>
+      <Nav.Link href="#subscribe">Subscribe</Nav.Link>
     </Nav>
   </Container>
   </Navbar>
