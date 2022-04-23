@@ -35,8 +35,9 @@ function App() {
     <Navbar />
 
       <header className="App-header">
-        <div class="row align-items-start">
-          <div class="col">
+        <div class="row-8">
+          <div style={{ height: 165, marginTop: 6 }}class="col">
+          <h1 class="h1" style={{fontSize: "1rem"}}>Hover!</h1>
           <Button variant= "dark" size="lg"
               onMouseEnter={() => {
                 setIsHovering(true);
@@ -56,7 +57,7 @@ function App() {
 
           </div>
         </div>
-        <div class="row align-items-center">
+        <div class="row">
           <div class="col">
 
           <img src={monst} width="240"

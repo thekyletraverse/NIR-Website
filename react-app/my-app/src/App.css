@@ -14,17 +14,20 @@
     animation: App-logo-spin infinite 50s linear;
   }
 }
-
+.h1{
+  font: normal small-caps normal 42px/1.4 Georgia;
+  font-style: oblique 23deg;
+}
 .App-header {
   background-color: #19A6F6;
-  min-height: 90vh;
+  min-height: 85vh;
   display: flex;
   flex-direction: column;
+  text-align: center;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  padding: 20px;
 }
 
 .App-link {
