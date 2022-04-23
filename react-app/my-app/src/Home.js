@@ -15,7 +15,7 @@ import Shop from "./Shop";
 
 
 
-function App() {
+function Home() {
 
   const [play, { stop }] = useSound(
       music,
@@ -35,7 +35,7 @@ function App() {
     <div>
 
     <Navbar />
-    
+
       <header className="App-header">
         <div class="row-8">
           <div style={{ height: 165, marginTop: 6 }}class="col">
@@ -93,4 +93,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;

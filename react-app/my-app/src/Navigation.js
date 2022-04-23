@@ -11,7 +11,7 @@ const Navigation = () => {
 
   <Navbar bg="light" variant="light">
   <Container>
-    <Navbar.Brand href="#home">
+    <Navbar.Brand href= "/">
       <img src={require('.//Nothing Iconic Reccords.png')} width="135"
         height="135"/>
     </Navbar.Brand>
