@@ -1,11 +1,11 @@
 import React from "react";
 import Footer from './footer'
 
-export default function Music() {
+export default function Videos() {
   return (
     <div>
-    <div class="music">
-      <h1>MUSIC</h1>
+    <div class="vids">
+      <h1>VIDEOS</h1>
    </div>
       <div>
         <Footer/>

@@ -36,5 +36,49 @@ textAlign: center;
   font: normal small-caps normal 36px/1.4 Georgia;
   color: #2699FB !important;
   font-style: oblique 23deg;
+  padding: 10px;
 
+}
+
+.art{
+  background-color: #FB9C00;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+.music{
+  background-color: #FF5722;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.vids{
+  background-color: #31FF00;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.con{
+  background-color: #BA68C8;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+    font-size: calc(10px + 2vmin);
+    color: white;
 }

@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import monst from './NI Monster.png'
+import notta from './1Not an Icon.png'
+import look from './Not an Iconn.png'
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Routes, Route, Switch } from "react-router-dom";
 import useSound from 'use-sound';
@@ -25,8 +27,10 @@ function Home() {
   return (
     <div>
       <div className="App-header">
-        <div class="row-8">
+        <div>
           <div style={{ height: 165, marginTop: 6 }}class="col">
+          <img src={notta} width="250"
+            height="200" className="App-logo" alt="logo" />
           <h1 class="h1" style={{fontSize: "1rem"}}>Hover!</h1>
           <Button variant= "dark" size="lg"
               onMouseEnter={() => {
@@ -45,11 +49,14 @@ function Home() {
           </div>
           <div class="col">
              <FaCloud class="Cloud-logo"size="lg"/>
+             <FaCloud class="Cloud-logo3" size="lg"/>
              <img src={monst} width="300"
                height="120" className="App-logo" alt="logo" />
           </div>
           <div class="col">
            <FaCloud class="Cloud-logo2" size="lg"/>
+           <img src={look} width="300"
+             height="120" className="App-logo" alt="logo" />
           <FaCloud class="Cloud-logo" size="sm"/>
           </div>
         </div>

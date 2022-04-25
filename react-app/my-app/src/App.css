@@ -15,7 +15,12 @@
 }
 
 .Cloud-logo2 {
-  height: 30vmin;
+  height: 20vmin;
+  pointer-events: none;
+}
+
+.Cloud-logo3 {
+  height: 27vmin;
   pointer-events: none;
 }
 
@@ -36,6 +41,12 @@
     animation: cloud2 infinite 50s linear;
   }
 }
+
+@media (prefers-reduced-motion: no-preference) {
+  .Cloud-logo3 {
+    animation: cloud3 infinite 55s linear;
+  }
+}
 .h1{
   font: normal small-caps normal 42px/1.4 Georgia;
   font-style: oblique 23deg;
@@ -46,8 +57,8 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  align-items: center;
-  justify-content: center;
+
+
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -67,13 +78,19 @@
 }
 
 @keyframes cloud1 {
-      from{transform: translate3d(-850px,0px,0px)}
+      from{transform: translate3d(500px,-100px,0px)}
       /* If you just right, the number with a minus in front -850px */
-      to{transform: translate3d(0px,0px,0px)}
+      to{transform: translate3d(850px,0px,0px)}
   }
 
-  @keyframes cloud2 {
-        from{transform: translate3d(0px,0px,0px)}
+@keyframes cloud2 {
+        from{transform: translate3d(-100px,0px,0px)}
         /* If you just right, the number with a minus in front -850px */
-        to{transform: translate3d(-850px,0px,0px)}
+        to{transform: translate3d(850px,0px,0px)}
     }
+
+@keyframes cloud3 {
+          from{transform: translate3d(100px,-300px,0px)}
+          /* If you just right, the number with a minus in front -850px */
+          to{transform: translate3d(-800px,0px,0px)}
+      }

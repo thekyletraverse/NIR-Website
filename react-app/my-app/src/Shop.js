@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Shop() {
   return (
-    <div>
-       Shop Page
+    <div class="App-header">
+       <h1>Shop Page</h1>
     </div>
   );
 }
