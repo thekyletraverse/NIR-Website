@@ -8,7 +8,7 @@ import { Button, Container} from 'react-bootstrap'
 import music from './react-app_my-app_src_JAZZ VIBES.mp3';
 import React, { useState } from 'react';
 import { FaPlay, FaCloud} from 'react-icons/fa';
-
+import Footer from './footer'
 
 
 function Home() {
@@ -54,6 +54,7 @@ function Home() {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
 
   );
