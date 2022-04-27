@@ -20,8 +20,8 @@ code {
 
   padding: 10px;
   background-color: rgb(235, 195, 64);
-  position: fixed;
-  bottom: 0;
+  position: absolute;
+  bottom: -10;
   left: 0;
   height: 40px;
   width: 100%;
