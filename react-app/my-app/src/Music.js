@@ -41,7 +41,7 @@ export default function Music() {
   return (
     <div>
     <div class="music">
-      <h1>MUSIC</h1>
+      <h1 class="h1">MUSIC</h1>
       <div class="container">
         <div class="row">
           <div class="col">

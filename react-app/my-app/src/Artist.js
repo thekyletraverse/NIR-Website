@@ -20,83 +20,83 @@ export default function Artist() {
   return (
     <div>
     <div class="art">
-       <h1>ARTISTS</h1>
+       <h1 class="h1">ARTISTS</h1>
        <div class="container">
-         <div class="row">
-           <div class="col">
-             <h1>COFFEE DOG</h1>
-             <img src={dog} width="300" height="120"/>
+         <div style={{justifyContent:"center"}} class="row">
+           <div style={{textAlign:"center"}} class="col">
+             <h1 class="h1">COFFEE DOG</h1>
+             <img src={dog} width="200" height="200"/>
              <Button><FaInstagram/></Button>
              <Button><FaTwitter/></Button>
            </div>
-           <div class="col">
-             <h1>GOOPILY</h1>
-             <img src={goop} width="300" height="120"/>
+           <div style={{textAlign:"center"}} class="col">
+             <h1 class="h1">GOOPILY</h1>
+             <img src={goop} width="500" height="200"/>
              <Button><FaInstagram/></Button>
              <Button><FaTwitter/></Button>
            </div>
-           <div class="col">
-             <h1>GROUP KEVIN</h1>
-             <img src={kev} width="300" height="120"/>
+           <div style={{textAlign:"center"}} class="col">
+             <h1 class="h1">GROUP KEVIN</h1>
+             <img src={kev} width="250" height="250"/>
              <Button><FaInstagram/></Button>
              <Button><FaTwitter/></Button>
            </div>
-           <div class="col">
-             <h1>HUNTER LIVSEY</h1>
-             <img src={hunt} width="300" height="120"/>
-             <h1>Official Site</h1>
+           <div style={{textAlign:"center"}} class="col">
+             <h1 class="h1">HUNTER LIVSEY</h1>
+             <img src={hunt} width="200" height="200"/>
+             <h1 class="h1">Official Site</h1>
              <Button><FaInstagram/></Button>
              <Button><FaTwitter/></Button>
            </div>
          </div>
-         <div class="row">
-           <div class="col">
-             <h1>JAY OLIVE</h1>
-             <img src={jay} width="300" height="120"/>
+         <div style={{justifyContent:"center"}} class="row">
+           <div style={{textAlign:"center"}} class="col">
+             <h1 class="h1">JAY OLIVE</h1>
+             <img src={jay} width="200" height="200"/>
              <Button><FaInstagram/></Button>
              <Button><FaTwitter/></Button>
            </div>
-           <div class="col">
-             <h1>JUSTIN SCHWARTZ</h1>
-             <img src={just} width="300" height="120"/>
+           <div style={{textAlign:"center"}} class="col">
+             <h1 class="h1">JUSTIN SCHWARTZ</h1>
+             <img src={just} width="200" height="200"/>
              <Button><FaInstagram/></Button>
              <Button><FaTwitter/></Button>
            </div>
-           <div class="col">
-             <h1>KYLE TRAVERSE</h1>
-             <img src={kyle} width="300" height="120"/>
+           <div style={{textAlign:"center"}} class="col">
+             <h1 class="h1">KYLE TRAVERSE</h1>
+             <img src={kyle} width="200" height="200"/>
              <Button><FaInstagram/></Button>
              <Button><FaTwitter/></Button>
            </div>
-           <div class="col">
-             <h1>LICENSED BOAT OPERATORS</h1>
+           <div style={{textAlign:"center"}} class="col">
+             <h1 class="h1">LICENSED BOAT OPERATORS</h1>
              <img src={boat} width="300" height="120"/>
              <Button><FaInstagram/></Button>
              <Button><FaTwitter/></Button>
            </div>
          </div>
-         <div class="row">
-           <div class="col">
-             <h1>PEER PRESSURE</h1>
+         <div style={{justifyContent:"center"}} class="row">
+           <div style={{textAlign:"center"}} class="col">
+             <h1 class="h1">PEER PRESSURE</h1>
              <img src={peer} width="300" height="120"/>
              <Button><FaInstagram/></Button>
              <Button><FaTwitter/></Button>
            </div>
-           <div class="col">
-             <h1>TIM FOIL</h1>
+           <div style={{textAlign:"center"}} class="col">
+             <h1 class="h1">TIM FOIL</h1>
              <img src={tim} width="300" height="120"/>
-             <h1>Official Site</h1>
+             <h1 class="h1">Official Site</h1>
              <Button><FaInstagram/></Button>
              <Button><FaTwitter/></Button>
            </div>
-           <div class="col">
-             <h1>TOM808</h1>
+           <div style={{textAlign:"center"}} class="col">
+             <h1 class="h1">TOM808</h1>
              <img src={tom} width="300" height="120"/>
              <Button><FaInstagram/></Button>
              <Button><FaTwitter/></Button>
            </div>
-           <div class="col">
-             <h1>THE PIG, VERBATIM</h1>
+           <div style={{textAlign:"center"}} class="col">
+             <h1 class="h1">THE PIG, VERBATIM</h1>
              <img src={pig} width="300" height="120"/>
              <Button><FaInstagram/></Button>
              <Button><FaTwitter/></Button>

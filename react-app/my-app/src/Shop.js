@@ -7,7 +7,7 @@ export default function Shop() {
     <div>
 
     <div class="shop">
-       <h1>SHOP</h1>
+       <h1 class="h1">SHOP</h1>
        <img src={shirtlogo} width="300" height="120"/>
     </div>
       <Footer/>
