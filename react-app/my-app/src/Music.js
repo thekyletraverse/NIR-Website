@@ -34,6 +34,9 @@ import vib from './Covers/Screen Shot 2022-04-26 at 9.44.25 PM.png'
 import cac from './Covers/Screen Shot 2022-04-26 at 9.43.01 PM.png'
 import mayo from './Covers/Screen Shot 2022-04-26 at 9.47.45 PM.png'
 
+import { Button, Container} from 'react-bootstrap'
+import { FaApple, FaSpotify} from 'react-icons/fa';
+
 export default function Music() {
   return (
     <div>
@@ -44,12 +47,14 @@ export default function Music() {
           <div class="col">
 
             <img src={bean} width="300" height="120"/>
-
+            <Button><FaApple/></Button>
+            <Button><FaSpotify/></Button>
           </div>
           <div class="col">
 
             <img src={bum} width="300" height="120"/>
-
+            <Button><FaApple/></Button>
+            <Button><FaSpotify/></Button>
           </div>
           <div class="col">
 
@@ -206,7 +211,7 @@ export default function Music() {
 
           </div>
           <div class="col">
-    
+
 
           </div>
         </div>
