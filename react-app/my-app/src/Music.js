@@ -43,7 +43,7 @@ export default function Music() {
     <div class="music">
       <h1 style={{padding:"30px"}} class="h1">MUSIC</h1>
       <div class="container">
-        <div class="row">
+        <div style={{padding:"30px"}}class="row">
           <div class="col">
 
             <img src={bean} width="300" height="120"/>
@@ -69,7 +69,7 @@ export default function Music() {
             <Button class="button"><FaSpotify/></Button>
           </div>
         </div>
-        <div class="row">
+        <div style={{padding:"30px"}}class="row">
           <div class="col">
 
             <img src={berg} width="300" height="120"/>
@@ -95,7 +95,7 @@ export default function Music() {
             <Button class="button"><FaSpotify/></Button>
           </div>
         </div>
-        <div class="row">
+        <div style={{padding:"30px"}} class="row">
           <div class="col">
 
             <img src={dogg} width="300" height="120"/>
@@ -118,7 +118,7 @@ export default function Music() {
             <Button class="button"><FaSpotify/></Button>
           </div>
         </div>
-        <div class="row">
+        <div style={{padding:"30px"}} class="row">
           <div class="col">
           <img src={pop} width="300" height="120"/>
           <Button class="button"><FaApple/></Button>{' '}
@@ -140,7 +140,7 @@ export default function Music() {
             <Button class="button"><FaSpotify/></Button>
           </div>
         </div>
-        <div class="row">
+        <div style={{padding:"30px"}} class="row">
           <div class="col">
           <img src={beaut} width="300" height="120"/>
           <Button class="button"><FaApple/></Button>{' '}
@@ -162,7 +162,7 @@ export default function Music() {
             <Button class="button"><FaSpotify/></Button>
           </div>
         </div>
-        <div class="row">
+        <div style={{padding:"30px"}} class="row">
           <div class="col">
           <img src={harl} width="300" height="120"/>
           <Button class="button"><FaApple/></Button>{' '}
@@ -184,7 +184,7 @@ export default function Music() {
             <Button class="button"><FaSpotify/></Button>
           </div>
         </div>
-        <div class="row">
+        <div style={{padding:"30px"}} class="row">
           <div class="col">
           <img src={cabb} width="300" height="120"/>
           <Button class="button"><FaApple/></Button>{' '}
@@ -206,7 +206,7 @@ export default function Music() {
             <Button class="button"><FaSpotify/></Button>
           </div>
         </div>
-        <div class="row">
+        <div style={{padding:"30px"}} class="row">
           <div class="col">
           <img src={jams} width="300" height="120"/>
           <Button class="button"><FaApple/></Button>{' '}
@@ -228,7 +228,7 @@ export default function Music() {
             <Button class="button"><FaSpotify/></Button>
           </div>
         </div>
-        <div class="row">
+        <div style={{padding:"30px"}} class="row">
           <div class="col">
           <img src={mayo} width="300" height="120"/>
           <Button class="button"><FaApple/></Button>{' '}

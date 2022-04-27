@@ -23,83 +23,83 @@ export default function Artist() {
     <div>
     <div class="art">
        <h1 style={{padding:"30px"}} class="h1">ARTISTS</h1>
-       <div style={{padding:"30px"}} class="container">
-         <div class="row justify-content-md-center">
-           <div style={{textAlign:"center"}} class="col">
+       <div class="container">
+         <div style={{padding:"30px"}} class="row justify-content-md-center">
+           <div style={{padding:"30px", textAlign:"center"}} class="col">
              <img src={dog} width="300" height="120"/>
              <h1 class="h2">COFFEE DOG</h1>
              <Button class="button"><FaInstagram/></Button>{' '}
              <Button class="button"><FaTwitter/></Button>{' '}
            </div>
-           <div style={{textAlign:"center"}} class="col">
+           <div style={{padding:"30px",textAlign:"center"}} class="col">
              <img src={goop} width="300" height="120"/>
              <h1 class="h2">GOOPILY</h1>
              <Button class="button"><FaInstagram/></Button>{' '}
              <Button class="button"><FaTwitter/></Button>
            </div>
-           <div style={{textAlign:"center"}} class="col">
+           <div style={{padding:"30px",textAlign:"center"}} class="col">
              <img src={kev} width="300" height="120"/>
              <h1 class="h2">GROUP KEVIN</h1>
              <Button class="button"><FaInstagram/></Button>{' '}
              <Button class="button"><FaTwitter/></Button>
            </div>
-           <div style={{textAlign:"center"}} class="col">
+           <div style={{padding:"30px",textAlign:"center"}} class="col">
              <img src={hunt} width="300" height="120"/>
              <h1 class="h2">HUNTER LIVSEY</h1>
-             <h1 class="h1">Official Site</h1>
+             <h1 class="h2">Official Site</h1>
              <Button class="button"><FaInstagram/></Button>{' '}
              <Button class="button"><FaTwitter/></Button>
            </div>
          </div>
-         <div class="row justify-content-md-center">
-           <div style={{textAlign:"center"}} class="col">
+         <div style={{padding:"30px"}} class="row justify-content-md-center">
+           <div style={{padding:"30px",textAlign:"center"}} class="col">
              <img src={jay} width="300" height="120"/>
              <h1 class="h2">JAY OLIVE</h1>
              <Button class="button"><FaInstagram/></Button>{' '}
              <Button class="button"><FaTwitter/></Button>
            </div>
-           <div style={{textAlign:"center"}} class="col">
+           <div style={{padding:"30px",textAlign:"center"}} class="col">
 
              <img src={just} width="300" height="120"/>
              <h1 class="h2">JUSTIN SCHWARTZ</h1>
              <Button class="button"><FaInstagram/></Button>{' '}
              <Button class="button"><FaTwitter/></Button>
            </div>
-           <div style={{textAlign:"center"}} class="col">
+           <div style={{padding:"30px",textAlign:"center"}} class="col">
 
              <img src={kyle} width="300" height="120"/>
              <h1 class="h2">KYLE TRAVERSE</h1>
              <Button class="button"><FaInstagram/></Button>{' '}
              <Button class="button"><FaTwitter/></Button>
            </div>
-           <div style={{textAlign:"center"}} class="col">
+           <div style={{padding:"30px",textAlign:"center"}} class="col">
              <img src={boat} width="300" height="120"/>
              <h1 class="h2">LICENSED BOAT OPERATORS</h1>
              <Button class="button"><FaInstagram/></Button>{' '}
              <Button class="button"><FaTwitter/></Button>
            </div>
          </div>
-         <div class="row justify-content-md-center">
-           <div style={{textAlign:"center"}} class="col">
+         <div style={{padding:"30px"}} class="row justify-content-md-center">
+           <div style={{padding:"30px",textAlign:"center"}} class="col">
              <img src={peer} width="300" height="120"/>
              <h1 class="h2">PEER PRESSURE</h1>
              <Button class="button"><FaInstagram/></Button>{' '}
              <Button class="button"><FaTwitter/></Button>
            </div>
-           <div style={{textAlign:"center"}} class="col align-items-center">
+           <div style={{padding:"30px",textAlign:"center"}} class="col align-items-center">
              <img src={tim} width="300" height="120"/>
              <h1 class="h2">TIM FOIL</h1>
              <h1 class="h2">Official Site</h1>
              <Button class="button"><FaInstagram/></Button>{' '}
              <Button class="button"><FaTwitter/></Button>
            </div>
-           <div style={{textAlign:"center"}} class="col">
+           <div style={{padding:"30px",textAlign:"center"}} class="col">
              <img src={tom} width="300" height="120"/>
              <h1 class="h2">TOM808</h1>
              <Button class="button"><FaInstagram/></Button>{' '}
              <Button class="button"><FaTwitter/></Button>
            </div>
-           <div style={{textAlign:"center"}} class="col">
+           <div style={{padding:"30px",textAlign:"center"}} class="col">
              <img src={pig} width="300" height="120"/>
              <h1 class="h2">THE PIG, VERBATIM</h1>
              <Button class="button"><FaInstagram/></Button>{' '}
