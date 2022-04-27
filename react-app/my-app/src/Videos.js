@@ -5,7 +5,7 @@ export default function Videos() {
   return (
     <div>
     <div class="vids">
-      <h1 class="h1">VIDEOS</h1>
+      <h1 style={{padding:"30px"}} class="h1">VIDEOS</h1>
       <div class="container">
         <div class="row">
           <div class="col">

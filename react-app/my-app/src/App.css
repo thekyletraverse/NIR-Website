@@ -48,7 +48,12 @@
   }
 }
 .h1{
-  font: normal small-caps normal 42px/1.4 Georgia;
+  font: normal small-caps normal 48px/1.4 Georgia;
+  font-style: oblique 23deg;
+}
+
+.h2{
+  font: normal small-caps normal 28px/1.4 Georgia;
   font-style: oblique 23deg;
 }
 .App-header {

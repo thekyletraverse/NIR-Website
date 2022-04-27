@@ -93,3 +93,8 @@ textAlign: center;
     font-size: calc(10px + 2vmin);
     color: white;
 }
+
+.button {
+  border: none;
+  padding: 20px;
+}

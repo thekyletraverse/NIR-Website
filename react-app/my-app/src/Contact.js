@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <div>
     <div class="con">
-    <h1 class="h1">CONTACT</h1>
+    <h1 style={{padding:"30px"}} class="h1">CONTACT</h1>
     </div>
 <Footer/>
     </div>
