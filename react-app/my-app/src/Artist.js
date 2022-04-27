@@ -15,7 +15,7 @@ import jay from './ArtistIMG/Screen Shot 2022-04-26 at 8.47.46 PM.png'
 import boat from './ArtistIMG/Screen Shot 2022-04-26 at 8.56.49 PM.png'
 import Footer from './footer'
 import { Button, Container} from 'react-bootstrap'
-
+import 'font-awesome/css/font-awesome.min.css';
 import { FaInstagram, FaTwitter, FaArrowRight} from 'react-icons/fa';
 
 export default function Artist() {

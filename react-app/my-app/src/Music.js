@@ -33,6 +33,7 @@ import casa from './Covers/Screen Shot 2022-04-26 at 9.48.40 PM.png'
 import vib from './Covers/Screen Shot 2022-04-26 at 9.44.25 PM.png'
 import cac from './Covers/Screen Shot 2022-04-26 at 9.43.01 PM.png'
 import mayo from './Covers/Screen Shot 2022-04-26 at 9.47.45 PM.png'
+import 'font-awesome/css/font-awesome.min.css';
 
 import { Button, Container} from 'react-bootstrap'
 import { FaApple, FaSpotify} from 'react-icons/fa';
