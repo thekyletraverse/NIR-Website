@@ -31,7 +31,7 @@ export default function Artist() {
              <a href="https://www.instagram.com/jpshannon/?utm_source=ig_embed&amp;utm_campaign=loading">
              <i class="button-style"><FaInstagram/></i>
              </a>
-             <a href="">
+             <a href="https://twitter.com/Jp__Shannon?s=20&t=GBPCVAbq8lpdNN0hEMEIrw">
               <i class="button-style"><FaTwitter/></i>
              </a>
 
@@ -42,7 +42,7 @@ export default function Artist() {
              <a href="https://www.instagram.com/goopily/?utm_source=ig_embed&amp;utm_campaign=loading">
              <i class="button-style"><FaInstagram/></i>
              </a>
-             <a href="">
+             <a href="https://twitter.com/__j2n?s=20&t=GBPCVAbq8lpdNN0hEMEIrw">
               <i class="button-style"><FaTwitter/></i>
              </a>
 
@@ -53,7 +53,7 @@ export default function Artist() {
              <a href="https://www.instagram.com/grpkvn/?utm_source=ig_embed&amp;utm_campaign=loading">
              <i class="button-style"><FaInstagram/></i>
              </a>
-             <a href="">
+             <a href="https://twitter.com/grpkvn?s=20&t=GBPCVAbq8lpdNN0hEMEIrw">
               <i class="button-style"><FaTwitter/></i>
              </a>
 
@@ -65,20 +65,20 @@ export default function Artist() {
              <a href="https://www.instagram.com/howntur/?utm_source=ig_embed&amp;utm_campaign=loading">
              <i class="button-style"><FaInstagram/></i>
              </a>
-             <a href="">
+             <a href="https://twitter.com/howntur?s=20&t=GBPCVAbq8lpdNN0hEMEIrw">
               <i class="button-style"><FaTwitter/></i>
              </a>
 
            </div>
          </div>
          <div style={{padding:"10px"}} class="row justify-content-md-center">
-           <div style={{padding:"40px",textAlign:"center"}} class="col">
+           <div style={{padding:"20px",textAlign:"center"}} class="col">
              <img class="image-style" src={jay} width="300" height="120"/>
-             <h1 style={{padding:"30px",textAlign:"center"}} class="h2">JAY OLIVE</h1>
+             <h1 style={{padding:"40px",textAlign:"center"}} class="h2">JAY OLIVE</h1>
              <a href="https://www.instagram.com/jasonnhorvath/?utm_source=ig_embed&amp;utm_campaign=loading">
              <i class="button-style"><FaInstagram/></i>
              </a>
-             <a href="">
+             <a href="https://twitter.com/jasonnhorvath?s=20&t=GBPCVAbq8lpdNN0hEMEIrw">
               <i class="button-style"><FaTwitter/></i>
              </a>
 
@@ -90,7 +90,7 @@ export default function Artist() {
              <a href="https://www.instagram.com/justin_schwartz/?utm_source=ig_embed&amp;utm_campaign=loading">
              <i class="button-style"><FaInstagram/></i>
              </a>
-             <a href="">
+             <a href="https://twitter.com/johnny_ryall_?s=20&t=GBPCVAbq8lpdNN0hEMEIrw">
               <i class="button-style"><FaTwitter/></i>
              </a>
 
@@ -102,7 +102,7 @@ export default function Artist() {
              <a href="https://www.instagram.com/thekyletraverse/?utm_source=ig_embed&amp;utm_campaign=loading">
              <i class="button-style"><FaInstagram/></i>
              </a>
-             <a href="">
+             <a href="https://twitter.com/TheKyleTraverse?s=20&t=GBPCVAbq8lpdNN0hEMEIrw">
               <i class="button-style"><FaTwitter/></i>
              </a>
 
@@ -112,9 +112,6 @@ export default function Artist() {
              <h1 style={{padding:"40px",textAlign:"center"}} class="h2">LICENSED BOAT OPERATORS</h1>
              <a href="https://www.instagram.com/licensedboatoperators/?utm_source=ig_embed&amp;utm_campaign=loading">
              <i class="button-style"><FaInstagram/></i>
-             </a>
-             <a href="">
-              <i class="button-style"><FaTwitter/></i>
              </a>
 
            </div>
@@ -132,7 +129,7 @@ export default function Artist() {
              <a href="https://www.instagram.com/thekyletraverse/?utm_source=ig_embed&amp;utm_campaign=loading">
              <i class="button-style"><FaInstagram/></i>
              </a>
-             <a href="">
+             <a href="https://twitter.com/TheKyleTraverse?s=20&t=GBPCVAbq8lpdNN0hEMEIrw">
               <i class="button-style"><FaTwitter/></i>
              </a>
 
@@ -149,12 +146,7 @@ export default function Artist() {
              <a href="https://www.instagram.com/thepig.verbatim_music/?utm_source=ig_embed&amp;utm_campaign=loading">
              <i class="button-style"><FaInstagram/></i>
              </a>
-             <a href="">
-              <i class="button-style"><FaTwitter/></i>
-             </a>
-
-
-
+            
            </div>
          </div>
          <div class="row justify-content-md-center">
