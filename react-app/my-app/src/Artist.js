@@ -62,7 +62,7 @@ export default function Artist() {
              <img class="image-style" src={hunt} width="300" height="120"/>
              <h1 style={{padding:"40px",textAlign:"center"}} class="h2">HUNTER LIVSEY</h1>
              <a href="https://howntur.weebly.com/">
-             <h1 style={{padding:"10px",textAlign:"center"}} class="h2">Official Site</h1>
+             <h1 style={{padding:"1px",textAlign:"center"}} class="h2">Official Site</h1>
              </a>
              <a href="https://www.instagram.com/howntur/?utm_source=ig_embed&amp;utm_campaign=loading">
              <i class="button-style"><FaInstagram/></i>
