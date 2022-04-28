@@ -48,15 +48,17 @@
   }
 }
 .h1{
-  font: normal small-caps normal 52px/1.4 Georgia;
+  font: normal small-caps normal bold 64px/1.4 Georgia;
   font-style: oblique 23deg;
+
+    text-decoration-color: white;
 
 }
 
 .h2{
   font: normal small-caps normal 16px/1.4 Georgia;
   font-style: oblique 23deg;
-
+  color: white;
 
 }
 .App-header {
@@ -93,6 +95,22 @@
 
 .image-style3{
   box-shadow: 20px 15px 50px .05px #8C6CDA;
+  animation-name: floating;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+   animation-timing-function: ease-in-out;
+}
+
+.image-style4{
+  box-shadow: 20px 15px 50px .05px #DD4C13;
+  animation-name: floating;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+   animation-timing-function: ease-in-out;
+}
+
+.image-style5{
+  box-shadow: 20px 15px 50px .05px #0CE316;
   animation-name: floating;
    animation-duration: 5s;
    animation-iteration-count: infinite;
