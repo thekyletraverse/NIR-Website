@@ -78,7 +78,7 @@
 .image-style{
   box-shadow: 20px 15px 50px .25px #0ff;
   animation-name: floating;
-   animation-duration: 4.5s;
+   animation-duration: 5s;
    animation-iteration-count: infinite;
    animation-timing-function: ease-in-out;
 }
@@ -86,7 +86,15 @@
 .image-style2{
   box-shadow: 20px 15px 50px .25px #FFD02B;
   animation-name: floating;
-   animation-duration: 4.5s;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+   animation-timing-function: ease-in-out;
+}
+
+.image-style3{
+  box-shadow: 20px 15px 50px .25px #8C6CDA;
+  animation-name: floating;
+   animation-duration: 5s;
    animation-iteration-count: infinite;
    animation-timing-function: ease-in-out;
 }
@@ -115,7 +123,7 @@
 @keyframes cloud3 {
           from{transform: translate3d(100px,-300px,0px)}
           /* If you just right, the number with a minus in front -850px */
-          to{transform: translate3d(-800px,0px,0px)}
+          to{transform: translate3d(-700px,0px,0px)}
       }
 
 @keyframes floating {
