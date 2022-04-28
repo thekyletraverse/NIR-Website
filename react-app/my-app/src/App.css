@@ -54,7 +54,7 @@
 }
 
 .h2{
-  font: normal small-caps normal 24px/1.4 Georgia;
+  font: normal small-caps normal 16px/1.4 Georgia;
   font-style: oblique 23deg;
 
 
@@ -78,7 +78,15 @@
 .image-style{
   box-shadow: 20px 15px 50px .25px #0ff;
   animation-name: floating;
-   animation-duration: 3s;
+   animation-duration: 4.5s;
+   animation-iteration-count: infinite;
+   animation-timing-function: ease-in-out;
+}
+
+.image-style2{
+  box-shadow: 20px 15px 50px .25px #FFD02B;
+  animation-name: floating;
+   animation-duration: 4.5s;
    animation-iteration-count: infinite;
    animation-timing-function: ease-in-out;
 }
@@ -112,6 +120,6 @@
 
 @keyframes floating {
           0% { transform: translate(0,  0px); }
-          50%  { transform: translate(0, 15px); }
+          50%  { transform: translate(0, 10px); }
           100%   { transform: translate(0, -0px); }
       }

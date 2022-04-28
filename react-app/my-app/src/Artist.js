@@ -24,84 +24,84 @@ export default function Artist() {
     <div class="art">
        <h1 style={{padding:"25px"}} class="h1">ARTISTS</h1>
        <div class="container">
-         <div style={{padding:"20px"}} class="row justify-content-md-center">
-           <div style={{padding:"30px", textAlign:"center"}} class="col">
+         <div style={{padding:"10px"}} class="row justify-content-md-center">
+           <div style={{padding:"20px", textAlign:"center"}} class="col">
              <img class="image-style" src={dog} width="300" height="120"/>
-             <h1 style={{padding:"30px",textAlign:"center"}} class="h2">COFFEE DOG</h1>
+             <h1 style={{padding:"40px",textAlign:"center"}} class="h2">COFFEE DOG</h1>
              <i class="button-style"><FaInstagram/></i>{' '}
              <i class="button-style"><FaTwitter/></i>{' '}
            </div>
-           <div style={{padding:"30px",textAlign:"center"}} class="col">
+           <div style={{padding:"20px",textAlign:"center"}} class="col">
              <img class="image-style" src={goop} width="300" height="120"/>
-             <h1 style={{padding:"30px",textAlign:"center"}} class="h2">GOOPILY</h1>
+             <h1 style={{padding:"40px",textAlign:"center"}} class="h2">GOOPILY</h1>
              <i class="button-style"><FaInstagram/></i>{' '}
              <i class="button-style"><FaTwitter/></i>
            </div>
-           <div style={{padding:"30px",textAlign:"center"}} class="col">
+           <div style={{padding:"20px",textAlign:"center"}} class="col">
              <img class="image-style" src={kev} width="300" height="120"/>
-             <h1 style={{padding:"30px",textAlign:"center"}} class="h2">GROUP KEVIN</h1>
+             <h1 style={{padding:"40px",textAlign:"center"}} class="h2">GROUP KEVIN</h1>
              <i class="button-style"><FaInstagram/></i>{' '}
              <i class="button-style"><FaTwitter/></i>
            </div>
-           <div style={{padding:"30px",textAlign:"center"}} class="col">
+           <div style={{padding:"20px",textAlign:"center"}} class="col">
              <img class="image-style" src={hunt} width="300" height="120"/>
-             <h1 style={{padding:"30px",textAlign:"center"}} class="h2">HUNTER LIVSEY</h1>
+             <h1 style={{padding:"40px",textAlign:"center"}} class="h2">HUNTER LIVSEY</h1>
              <h1 style={{padding:"10px",textAlign:"center"}} class="h2">Official Site</h1>
              <i class="button-style"><FaInstagram/></i>{' '}
              <i class="button-style"><FaTwitter/></i>
            </div>
          </div>
-         <div style={{padding:"20px"}} class="row justify-content-md-center">
-           <div style={{padding:"30px",textAlign:"center"}} class="col">
+         <div style={{padding:"10px"}} class="row justify-content-md-center">
+           <div style={{padding:"40px",textAlign:"center"}} class="col">
              <img class="image-style" src={jay} width="300" height="120"/>
              <h1 style={{padding:"30px",textAlign:"center"}} class="h2">JAY OLIVE</h1>
              <i class="button-style"><FaInstagram/></i>{' '}
              <i class="button-style"><FaTwitter/></i>
            </div>
-           <div style={{padding:"30px",textAlign:"center"}} class="col">
+           <div style={{padding:"20px",textAlign:"center"}} class="col">
 
              <img class="image-style" src={just} width="300" height="120"/>
-             <h1 style={{padding:"30px",textAlign:"center"}} class="h2">JUSTIN SCHWARTZ</h1>
+             <h1 style={{padding:"40px",textAlign:"center"}} class="h2">JUSTIN SCHWARTZ</h1>
              <i class="button-style"><FaInstagram/></i>{' '}
              <i class="button-style"><FaTwitter/></i>
            </div>
-           <div style={{padding:"30px",textAlign:"center"}} class="col">
+           <div style={{padding:"20px",textAlign:"center"}} class="col">
 
              <img class="image-style" src={kyle} width="300" height="120"/>
-             <h1 style={{padding:"30px",textAlign:"center"}} class="h2">KYLE TRAVERSE</h1>
+             <h1 style={{padding:"40px",textAlign:"center"}} class="h2">KYLE TRAVERSE</h1>
              <i class="button-style"><FaInstagram/></i>{' '}
              <i class="button-style"><FaTwitter/></i>
            </div>
-           <div style={{padding:"30px",textAlign:"center"}} class="col">
+           <div style={{padding:"20px",textAlign:"center"}} class="col">
              <img class="image-style" src={boat} width="300" height="120"/>
-             <h1 style={{padding:"10px",textAlign:"center"}} class="h2">LICENSED BOAT OPERATORS</h1>
+             <h1 style={{padding:"40px",textAlign:"center"}} class="h2">LICENSED BOAT OPERATORS</h1>
              <i class="button-style"><FaInstagram/></i>{' '}
              <i class="button-style"><FaTwitter/></i>
            </div>
          </div>
-         <div style={{padding:"20px"}} class="row justify-content-md-center">
-           <div style={{padding:"30px",textAlign:"center"}} class="col">
+         <div style={{padding:"10px"}} class="row justify-content-md-center">
+           <div style={{padding:"20px",textAlign:"center"}} class="col">
              <img class="image-style" src={peer} width="300" height="120"/>
-             <h1 style={{padding:"10px",textAlign:"center"}} class="h2">PEER PRESSURE</h1>
+             <h1 style={{padding:"40px",textAlign:"center"}} class="h2">PEER PRESSURE</h1>
              <i class="button-style"><FaInstagram/></i>{' '}
              <i class="button-style"><FaTwitter/></i>
            </div>
-           <div style={{padding:"30px",textAlign:"center"}} class="col align-items-center">
+           <div style={{padding:"20px",textAlign:"center"}} class="col align-items-center">
              <img class="image-style" src={tim} width="300" height="120"/>
-             <h1 style={{padding:"10px",textAlign:"center"}} class="h2">TIM FOIL</h1>
-             <h1 style={{padding:"10px",textAlign:"center"}} class="h2">Official Site</h1>
+             <h1 style={{padding:"30px",textAlign:"center"}} class="h2">TIM FOIL</h1>
+             <h1 style={{padding:"1px",textAlign:"center"}} class="h2">Official Site</h1>
              <i class="button-style"><FaInstagram/></i>{' '}
              <i class="button-style"><FaTwitter/></i>
            </div>
-           <div style={{padding:"30px",textAlign:"center"}} class="col">
+           <div style={{padding:"20px",textAlign:"center"}} class="col">
              <img class="image-style" src={tom} width="300" height="120"/>
-             <h1 style={{padding:"10px",textAlign:"center"}}  class="h2">TOM808</h1>
+             <h1 style={{padding:"40px",textAlign:"center"}}  class="h2">TOM808</h1>
              <i class="button-style"><FaInstagram/></i>{' '}
              <i class="button-style"><FaTwitter/></i>
            </div>
-           <div style={{padding:"30px",textAlign:"center"}} class="col">
+           <div style={{padding:"20px",textAlign:"center"}} class="col">
              <img class="image-style" src={pig} width="300" height="120"/>
-             <h1 style={{padding:"10px",textAlign:"center"}}  class="h2">THE PIG, VERBATIM</h1>
+             <h1 style={{padding:"40px",textAlign:"center"}}  class="h2">THE PIG, VERBATIM</h1>
 
              <i class="button-style"><FaInstagram/></i>{' '}
              <i class="button-style" ><FaTwitter/></i>
