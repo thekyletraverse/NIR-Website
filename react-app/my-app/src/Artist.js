@@ -6,7 +6,7 @@ import goop from './ArtistIMG/IMG_1969 Small.jpeg'
 import kev from './ArtistIMG/IMG_0437.jpg'
 import tim from './ArtistIMG/IMG_9672.jpg'
 import tom from './ArtistIMG/IMG_0581.jpg'
-import hunt from './ArtistIMG/Screen Shot 2022-04-26 at 8.24.42 PM.png'
+import hunt from './ArtistIMG/Screen Shot 2022-04-27 at 11.24.47 PM.png'
 import peer from './ArtistIMG/Screen Shot 2022-04-26 at 8.33.57 PM.png'
 import pig from './ArtistIMG/Screen Shot 2022-04-26 at 8.33.13 PM.png'
 import kyle from './ArtistIMG/IMG_3348.jpg'
@@ -61,7 +61,9 @@ export default function Artist() {
            <div style={{padding:"20px",textAlign:"center"}} class="col">
              <img class="image-style" src={hunt} width="300" height="120"/>
              <h1 style={{padding:"40px",textAlign:"center"}} class="h2">HUNTER LIVSEY</h1>
+             <a href="https://howntur.weebly.com/">
              <h1 style={{padding:"10px",textAlign:"center"}} class="h2">Official Site</h1>
+             </a>
              <a href="https://www.instagram.com/howntur/?utm_source=ig_embed&amp;utm_campaign=loading">
              <i class="button-style"><FaInstagram/></i>
              </a>
@@ -125,7 +127,9 @@ export default function Artist() {
            <div style={{padding:"20px",textAlign:"center"}} class="col align-items-center">
              <img class="image-style" src={tim} width="300" height="120"/>
              <h1 style={{padding:"30px",textAlign:"center"}} class="h2">TIM FOIL</h1>
+             <a href="https://linktr.ee/timfoil">
              <h1 style={{padding:"1px",textAlign:"center"}} class="h2">Official Site</h1>
+             </a>
              <a href="https://www.instagram.com/thekyletraverse/?utm_source=ig_embed&amp;utm_campaign=loading">
              <i class="button-style"><FaInstagram/></i>
              </a>
@@ -146,7 +150,7 @@ export default function Artist() {
              <a href="https://www.instagram.com/thepig.verbatim_music/?utm_source=ig_embed&amp;utm_campaign=loading">
              <i class="button-style"><FaInstagram/></i>
              </a>
-            
+
            </div>
          </div>
          <div class="row justify-content-md-center">
