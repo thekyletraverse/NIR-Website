@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from './footer'
 import bean from './Covers/Screen Shot 2022-04-26 at 9.39.43 PM.png'
-import bum from './Covers/rsz_bum_real_cover.jpg'
+import bum from './Covers/Screen Shot 2022-04-27 at 10.15.39 PM.png'
 import metal from './Covers/Screen Shot 2022-04-26 at 9.40.01 PM.png'
 import text from './Covers/Screen Shot 2022-04-26 at 9.46.56 PM.png'
 import berg from './Covers/Screen Shot 2022-04-26 at 9.40.41 PM.png'
@@ -36,7 +36,7 @@ import mayo from './Covers/Screen Shot 2022-04-26 at 9.47.45 PM.png'
 import 'font-awesome/css/font-awesome.min.css';
 
 import { Button, Container} from 'react-bootstrap'
-import { FaApple, FaSpotify} from 'react-icons/fa';
+import { FaApple, FaSpotify, FaSoundcloud} from 'react-icons/fa';
 import { Link, Router, Route } from "react-router-dom";
 
 export default function Music() {
@@ -52,7 +52,7 @@ export default function Music() {
             <a href="https://music.apple.com/us/album/spilled-beans/1617701719">
               <i style={{padding:"30px"}} class="button-style"><FaApple/></i>
             </a>
-            <a href="https://open.spotify.com/album/4BQraO7k99PRpXdRiARjEQ?si=NiqA0-fnRkecoDdqWm-ILQ">
+            <a href="https://open.spotify.com/album/3wf3mNIBOfiXfGnhZXu18H?si=Lvqmmd6FS8CLZ0hDtDAGDw">
               <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
             </a>
           </div>
@@ -62,7 +62,7 @@ export default function Music() {
             <a href="https://music.apple.com/us/album/those-bum-tendencies/1615297111">
               <i style={{padding:"30px"}} class="button-style"><FaApple/></i>
             </a>
-            <a href="https://open.spotify.com/album/4BQraO7k99PRpXdRiARjEQ?si=NiqA0-fnRkecoDdqWm-ILQ">
+            <a href="https://open.spotify.com/album/4t513ZyUkTIPpgeWJY42b9?si=A3eWZsIbRBGL_7lw_ZsjEA">
               <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
             </a>
           </div>
@@ -72,7 +72,7 @@ export default function Music() {
             <a href="https://music.apple.com/us/album/metal-tune/1613191287?i=1613191288">
               <i style={{padding:"30px"}} class="button-style"><FaApple/></i>
             </a>
-            <a href="https://open.spotify.com/album/4BQraO7k99PRpXdRiARjEQ?si=NiqA0-fnRkecoDdqWm-ILQ">
+            <a href="https://open.spotify.com/track/65FycqHu9Etxdf0J1vPd4p?si=c5290279610d4409">
               <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
             </a>
           </div>
@@ -82,7 +82,7 @@ export default function Music() {
             <a href="https://music.apple.com/us/album/texting-while-driving/1598940530">
               <i style={{padding:"30px"}} class="button-style"><FaApple/></i>
             </a>
-            <a href="https://open.spotify.com/album/4BQraO7k99PRpXdRiARjEQ?si=NiqA0-fnRkecoDdqWm-ILQ">
+            <a href="https://open.spotify.com/album/1DrRnDNqQSnMsaMbl2gCuj?si=gq5FFCIDThypQKx7nk10PA">
               <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
             </a>
           </div>
@@ -94,7 +94,7 @@ export default function Music() {
             <a href="https://music.apple.com/us/album/bergamot-single/1597908527">
               <i style={{padding:"30px"}} class="button-style"><FaApple/></i>
             </a>
-            <a href="https://open.spotify.com/album/4BQraO7k99PRpXdRiARjEQ?si=NiqA0-fnRkecoDdqWm-ILQ">
+            <a href="https://open.spotify.com/album/3oxzbB7lydutstjPZWNruq?si=zk3ubid3TZeDJGKh0GSmhQ">
               <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
             </a>
           </div>
@@ -102,10 +102,7 @@ export default function Music() {
 
             <img class="image-style2" src={nin} width="300" height="120"/>
             <a href="https://music.apple.com/us/album/cacophony-ep/1448573381">
-              <i style={{padding:"30px"}} class="button-style"><FaApple/></i>
-            </a>
-            <a href="https://open.spotify.com/album/4BQraO7k99PRpXdRiARjEQ?si=NiqA0-fnRkecoDdqWm-ILQ">
-              <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
+              <i style={{padding:"30px"}} class="button-style"><FaSoundcloud/></i>
             </a>
           </div>
           <div style={{padding:"20px", textAlign:"center"}} class="col">
@@ -114,7 +111,7 @@ export default function Music() {
             <a href="https://music.apple.com/us/album/tin-and-gold/1566835401">
               <i style={{padding:"30px"}} class="button-style"><FaApple/></i>
             </a>
-            <a href="https://open.spotify.com/album/4BQraO7k99PRpXdRiARjEQ?si=NiqA0-fnRkecoDdqWm-ILQ">
+            <a href="https://open.spotify.com/album/12cx5EuE7Du02t9bwMTujL?si=6UnmeRBoSNOprAdHeFIzwQ">
               <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
             </a>
           </div>
@@ -124,7 +121,7 @@ export default function Music() {
             <a href="https://music.apple.com/us/album/the-pig-verbatim/1564960985">
               <i style={{padding:"30px"}} class="button-style"><FaApple/></i>
             </a>
-            <a href="https://open.spotify.com/album/4BQraO7k99PRpXdRiARjEQ?si=NiqA0-fnRkecoDdqWm-ILQ">
+            <a href="https://open.spotify.com/album/5Gf4U7LUFWq2F0BFXWTmaK?si=I3d9Z5z9RMSQxzPvF1Nj3w">
               <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
             </a>
           </div>
@@ -136,7 +133,7 @@ export default function Music() {
             <a href="https://music.apple.com/us/album/doggerel-single/1557068972">
               <i style={{padding:"30px"}} class="button-style"><FaApple/></i>
             </a>
-            <a href="https://open.spotify.com/album/4BQraO7k99PRpXdRiARjEQ?si=NiqA0-fnRkecoDdqWm-ILQ">
+            <a href="https://open.spotify.com/album/5W7amfZyaZffoKYKNtSpHY?si=90-NYr0cS-CeOItcPiIr9A">
               <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
             </a>
           </div>
@@ -145,7 +142,7 @@ export default function Music() {
             <a href="https://music.apple.com/us/album/viscous-single/1544583112">
               <i style={{padding:"30px"}} class="button-style"><FaApple/></i>
             </a>
-            <a href="https://open.spotify.com/album/4BQraO7k99PRpXdRiARjEQ?si=NiqA0-fnRkecoDdqWm-ILQ">
+            <a href="https://open.spotify.com/album/41L1gShnyxM6AdILqlbaGI?si=dIDOi-uRTSOJYopnTgx1Gg">
               <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
             </a>
           </div>
@@ -154,18 +151,16 @@ export default function Music() {
             <a href="https://music.apple.com/us/album/hooked/1536204488">
               <i style={{padding:"30px"}} class="button-style"><FaApple/></i>
             </a>
-            <a href="https://open.spotify.com/album/4BQraO7k99PRpXdRiARjEQ?si=NiqA0-fnRkecoDdqWm-ILQ">
+            <a href="https://open.spotify.com/album/0fo0c8QVjt2RmTjOOfVHTP?si=3IIP0mlXRPOb4QPAMjpvsg">
               <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
             </a>
           </div>
           <div style={{padding:"20px", textAlign:"center"}} class="col">
             <img class="image-style2" src={guyz} width="300" height="120"/>
             <a href="https://music.apple.com/us/album/cacophony-ep/1448573381">
-              <i style={{padding:"30px"}} class="button-style"><FaApple/></i>
+              <i style={{padding:"30px"}} class="button-style"><FaSoundcloud/></i>
             </a>
-            <a href="https://open.spotify.com/album/4BQraO7k99PRpXdRiARjEQ?si=NiqA0-fnRkecoDdqWm-ILQ">
-              <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
-            </a>
+
           </div>
         </div>
         <div style={{padding:"10px"}} class="row">
@@ -174,7 +169,7 @@ export default function Music() {
           <a href="https://music.apple.com/us/album/alien-pop/1509908229">
             <i style={{padding:"30px"}} class="button-style"><FaApple/></i>
           </a>
-          <a href="https://open.spotify.com/album/4BQraO7k99PRpXdRiARjEQ?si=NiqA0-fnRkecoDdqWm-ILQ">
+          <a href="https://open.spotify.com/album/1BNvQpQoMLVeRDfxqv5zaE?si=-7ZHruFIShuk_1i7v8OG0g">
             <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
           </a>
           </div>
@@ -183,7 +178,7 @@ export default function Music() {
             <a href="https://music.apple.com/us/album/tomato-eight/1507496109">
               <i style={{padding:"30px"}} class="button-style"><FaApple/></i>
             </a>
-            <a href="https://open.spotify.com/album/4BQraO7k99PRpXdRiARjEQ?si=NiqA0-fnRkecoDdqWm-ILQ">
+            <a href="https://open.spotify.com/album/1xL8W7vxrgGooMgVJ3ZbyU?si=GbgDZCMJSvOoZYFWC2XMvw">
               <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
             </a>
           </div>
@@ -192,17 +187,14 @@ export default function Music() {
             <a href="https://music.apple.com/us/album/meadowlark-single/1507263601">
               <i style={{padding:"30px"}} class="button-style"><FaApple/></i>
             </a>
-            <a href="https://open.spotify.com/album/4BQraO7k99PRpXdRiARjEQ?si=NiqA0-fnRkecoDdqWm-ILQ">
+            <a href="https://open.spotify.com/album/5ZgaezFXJujWw714KCId6D?si=XdO7z4WUSxOZcy4ee0tNjw">
               <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
             </a>
           </div>
           <div style={{padding:"20px", textAlign:"center"}} class="col">
             <img class="image-style2" src={spare} width="300" height="120"/>
             <a href="https://music.apple.com/us/album/cacophony-ep/1448573381">
-              <i style={{padding:"30px"}} class="button-style"><FaApple/></i>
-            </a>
-            <a href="https://open.spotify.com/album/4BQraO7k99PRpXdRiARjEQ?si=NiqA0-fnRkecoDdqWm-ILQ">
-              <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
+              <i style={{padding:"30px"}} class="button-style"><FaSoundcloud/></i>
             </a>
           </div>
         </div>
@@ -210,10 +202,7 @@ export default function Music() {
           <div style={{padding:"20px", textAlign:"center"}} class="col">
           <img class="image-style2" src={beaut} width="300" height="120"/>
           <a href="https://music.apple.com/us/album/cacophony-ep/1448573381">
-            <i style={{padding:"30px"}} class="button-style"><FaApple/></i>
-          </a>
-          <a href="https://open.spotify.com/album/4BQraO7k99PRpXdRiARjEQ?si=NiqA0-fnRkecoDdqWm-ILQ">
-            <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
+            <i style={{padding:"30px"}} class="button-style"><FaSoundcloud/></i>
           </a>
           </div>
           <div style={{padding:"20px", textAlign:"center"}} class="col">
@@ -221,7 +210,7 @@ export default function Music() {
             <a href="https://music.apple.com/us/album/cheese/1499276702">
               <i style={{padding:"30px"}} class="button-style"><FaApple/></i>
             </a>
-            <a href="https://open.spotify.com/album/4BQraO7k99PRpXdRiARjEQ?si=NiqA0-fnRkecoDdqWm-ILQ">
+            <a href="https://open.spotify.com/album/7gj4GfSki9Cos0OL9D3WOu?si=mP5UO-i7QCOgI5HF9nOObg">
               <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
             </a>
           </div>
@@ -230,17 +219,14 @@ export default function Music() {
             <a href="https://music.apple.com/us/album/vibrant-ii-ep/1496524118">
               <i style={{padding:"30px"}} class="button-style"><FaApple/></i>
             </a>
-            <a href="https://open.spotify.com/album/4BQraO7k99PRpXdRiARjEQ?si=NiqA0-fnRkecoDdqWm-ILQ">
+            <a href="https://open.spotify.com/album/20eBbXV4H7FqpptMfpjy8s?si=wI_COTaZQfKUEBgAkDzAiQ">
               <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
             </a>
           </div>
           <div style={{padding:"20px", textAlign:"center"}} class="col">
             <img class="image-style2" src={fran} width="300" height="120"/>
             <a href="https://music.apple.com/us/album/cacophony-ep/1448573381">
-              <i style={{padding:"30px"}} class="button-style"><FaApple/></i>
-            </a>
-            <a href="https://open.spotify.com/album/4BQraO7k99PRpXdRiARjEQ?si=NiqA0-fnRkecoDdqWm-ILQ">
-              <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
+              <i style={{padding:"30px"}} class="button-style"><FaSoundcloud/></i>
             </a>
           </div>
         </div>
@@ -250,7 +236,7 @@ export default function Music() {
           <a href="https://music.apple.com/us/album/harlequin-book/1486642752">
             <i style={{padding:"30px"}} class="button-style"><FaApple/></i>
           </a>
-          <a href="https://open.spotify.com/album/4BQraO7k99PRpXdRiARjEQ?si=NiqA0-fnRkecoDdqWm-ILQ">
+          <a href="https://open.spotify.com/album/5G1ldHZMeD5kDIWLkJBIKS?si=oB4WwMKVSCeymE1b03w6Fw">
             <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
           </a>
           </div>
@@ -259,7 +245,7 @@ export default function Music() {
             <a href="https://music.apple.com/us/album/who-the-hell-is-justin-schwartz-ep/1486130821">
               <i style={{padding:"30px"}} class="button-style"><FaApple/></i>
             </a>
-            <a href="https://open.spotify.com/album/4BQraO7k99PRpXdRiARjEQ?si=NiqA0-fnRkecoDdqWm-ILQ">
+            <a href="https://open.spotify.com/album/350v6c6MLNPxFkqcJ3VzAY?si=ZXwYG5Z4TaGDMr9tElXvbw">
               <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
             </a>
           </div>
@@ -268,17 +254,14 @@ export default function Music() {
             <a href="https://music.apple.com/us/album/grass-alley/1485172838">
               <i style={{padding:"30px"}} class="button-style"><FaApple/></i>
             </a>
-            <a href="https://open.spotify.com/album/4BQraO7k99PRpXdRiARjEQ?si=NiqA0-fnRkecoDdqWm-ILQ">
+            <a href="https://open.spotify.com/album/0rDq2N2Oj0Njj42BtsnaqT?si=ChCYRxkYSiu13k7Z04tjVQ">
               <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
             </a>
           </div>
           <div style={{padding:"20px", textAlign:"center"}} class="col">
             <img class="image-style2" src={sprite} width="300" height="120"/>
             <a href="https://music.apple.com/us/album/cacophony-ep/1448573381">
-              <i style={{padding:"30px"}} class="button-style"><FaApple/></i>
-            </a>
-            <a href="https://open.spotify.com/album/4BQraO7k99PRpXdRiARjEQ?si=NiqA0-fnRkecoDdqWm-ILQ">
-              <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
+              <i style={{padding:"30px"}} class="button-style"><FaSoundcloud/></i>
             </a>
           </div>
         </div>
@@ -286,10 +269,7 @@ export default function Music() {
           <div style={{padding:"20px", textAlign:"center"}} class="col">
           <img class="image-style2" src={cabb} width="300" height="120"/>
           <a href="https://music.apple.com/us/album/cacophony-ep/1448573381">
-            <i style={{padding:"30px"}} class="button-style"><FaApple/></i>
-          </a>
-          <a href="https://open.spotify.com/album/4BQraO7k99PRpXdRiARjEQ?si=NiqA0-fnRkecoDdqWm-ILQ">
-            <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
+            <i style={{padding:"30px"}} class="button-style"><FaSoundcloud/></i>
           </a>
           </div>
           <div style={{padding:"20px", textAlign:"center"}} class="col">
@@ -297,7 +277,7 @@ export default function Music() {
             <a href="https://music.apple.com/us/album/lettuce/1467549477">
               <i style={{padding:"30px"}} class="button-style"><FaApple/></i>
             </a>
-            <a href="https://open.spotify.com/album/4BQraO7k99PRpXdRiARjEQ?si=NiqA0-fnRkecoDdqWm-ILQ">
+            <a href="https://open.spotify.com/album/07CNBwjhtmLAPn5wvD9gAP?si=AJqS9sbhTM67cWzx_U06tQ">
               <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
             </a>
           </div>
@@ -309,7 +289,7 @@ export default function Music() {
             <a href="https://music.apple.com/us/album/with-you-single/1460043640">
               <i style={{padding:"30px"}} class="button-style"><FaApple/></i>
             </a>
-            <a href="https://open.spotify.com/album/4BQraO7k99PRpXdRiARjEQ?si=NiqA0-fnRkecoDdqWm-ILQ">
+            <a href="https://open.spotify.com/album/5iV0HXNtpYGMgRsxiS6tdP?si=EFgLKWk7TJurnGDbSUA82g">
               <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
             </a>
           </div>
@@ -320,7 +300,7 @@ export default function Music() {
           <a href="https://music.apple.com/us/album/bummerjams-vol-ii/1458192905">
             <i style={{padding:"30px"}} class="button-style"><FaApple/></i>
           </a>
-          <a href="https://open.spotify.com/album/4BQraO7k99PRpXdRiARjEQ?si=NiqA0-fnRkecoDdqWm-ILQ">
+          <a href="https://open.spotify.com/album/7JAMThtQExt6hZYGFZSGjw?si=jfiv03oyQaaMXfVYUPkClQ">
             <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
           </a>
           </div>
@@ -330,10 +310,10 @@ export default function Music() {
           </div>
           <div style={{padding:"20px", textAlign:"center"}} class="col">
             <img class="image-style2" src={vib} width="300" height="120"/>
-            <a href="https://music.apple.com/us/album/cacophony-ep/1448573381">
+            <a href="https://music.apple.com/us/album/vibrant-deluxe-ep/1496512278">
               <i style={{padding:"30px"}} class="button-style"><FaApple/></i>
             </a>
-            <a href="https://open.spotify.com/album/4BQraO7k99PRpXdRiARjEQ?si=NiqA0-fnRkecoDdqWm-ILQ">
+            <a href="https://open.spotify.com/album/6fZBZjjq13pVx8annZm4kO?si=qHAhQ2UlQn2_EnjkckvprA">
               <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
             </a>
           </div>
@@ -353,7 +333,7 @@ export default function Music() {
           <a href="https://music.apple.com/us/album/mayo/1439612047">
             <i style={{padding:"30px"}} class="button-style"><FaApple/></i>
           </a>
-          <a href="https://open.spotify.com/album/4BQraO7k99PRpXdRiARjEQ?si=NiqA0-fnRkecoDdqWm-ILQ">
+          <a href="https://open.spotify.com/album/52TZWqzCjNYsI6S03945rQ?si=WiF_4g_iQcST5sZuFaTM2g">
             <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
           </a>
           </div>
