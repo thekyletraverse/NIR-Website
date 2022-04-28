@@ -48,192 +48,192 @@ export default function Music() {
           <div class="col">
 
             <img class="image-style2" src={bean} width="300" height="120"/>
-            <i class="button-style"><FaApple/></i>{' '}
-            <i class="button-style"><FaSpotify/></i>
+            <i style={{padding:"30px"}} class="button-style"><FaApple/></i>{' '}
+            <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
           </div>
           <div class="col">
 
             <img class="image-style2" src={bum} width="300" height="120"/>
-            <i class="button-style"><FaApple/></i>{' '}
-            <i class="button-style"><FaSpotify/></i>
+            <i style={{padding:"30px"}} class="button-style"><FaApple/></i>{' '}
+            <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
           </div>
           <div class="col">
 
             <img class="image-style2" src={metal} width="300" height="120"/>
-            <i class="button-style"><FaApple/></i>{' '}
-            <i class="button-style"><FaSpotify/></i>
+            <i style={{padding:"30px"}} class="button-style"><FaApple/></i>{' '}
+            <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
           </div>
           <div class="col">
 
             <img class="image-style2" src={text} width="300" height="120"/>
-            <i class="button-style"><FaApple/></i>{' '}
-            <i class="button-style"><FaSpotify/></i>
+            <i style={{padding:"30px"}} class="button-style"><FaApple/></i>{' '}
+            <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
           </div>
         </div>
         <div style={{padding:"30px"}}class="row">
           <div class="col">
 
             <img class="image-style2" src={berg} width="300" height="120"/>
-            <i class="button-style"><FaApple/></i>{' '}
-            <i class="button-style"><FaSpotify/></i>
+            <i style={{padding:"30px"}} class="button-style"><FaApple/></i>{' '}
+            <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
           </div>
           <div class="col">
 
             <img class="image-style2" src={nin} width="300" height="120"/>
-            <i class="button-style"><FaApple/></i>{' '}
-            <i class="button-style"><FaSpotify/></i>
+            <i style={{padding:"30px"}} class="button-style"><FaApple/></i>{' '}
+            <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
           </div>
           <div class="col">
 
             <img class="image-style2" src={tin} width="300" height="120"/>
-            <i class="button-style"><FaApple/></i>{' '}
-            <i class="button-style"><FaSpotify/></i>
+            <i style={{padding:"30px"}} class="button-style"><FaApple/></i>{' '}
+            <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
           </div>
           <div class="col">
 
             <img class="image-style2"  src={verb} width="300" height="120"/>
-            <i class="button-style"><FaApple/></i>{' '}
-            <i class="button-style"><FaSpotify/></i>
+            <i style={{padding:"30px"}} class="button-style"><FaApple/></i>{' '}
+            <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
           </div>
         </div>
         <div style={{padding:"30px"}} class="row">
           <div class="col">
 
             <img class="image-style2" src={dogg} width="300" height="120"/>
-            <i class="button-style"><FaApple/></i>{' '}
-            <i class="button-style"><FaSpotify/></i>
+            <i style={{padding:"30px"}} class="button-style"><FaApple/></i>{' '}
+            <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
           </div>
           <div class="col">
             <img class="image-style2" src={visc} width="300" height="120"/>
-            <i class="button-style"><FaApple/></i>{' '}
-            <i class="button-style"><FaSpotify/></i>
+            <i style={{padding:"30px"}} class="button-style"><FaApple/></i>{' '}
+            <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
           </div>
           <div class="col">
             <img class="image-style2" src={hook} width="300" height="120"/>
-            <i class="button-style"><FaApple/></i>{' '}
-            <i class="button-style"><FaSpotify/></i>
+            <i style={{padding:"30px"}} class="button-style"><FaApple/></i>{' '}
+            <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
           </div>
           <div class="col">
             <img class="image-style2" src={guyz} width="300" height="120"/>
-            <i class="button-style"><FaApple/></i>{' '}
-            <i class="button-style"><FaSpotify/></i>
+            <i style={{padding:"30px"}} class="button-style"><FaApple/></i>{' '}
+            <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
           </div>
         </div>
         <div style={{padding:"30px"}} class="row">
           <div class="col">
           <img class="image-style2" src={pop} width="300" height="120"/>
-          <i class="button-style"><FaApple/></i>{' '}
-          <i class="button-style"><FaSpotify/></i>
+          <i style={{padding:"30px"}} class="button-style"><FaApple/></i>{' '}
+          <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
           </div>
           <div class="col">
             <img class="image-style2" src={eight} width="300" height="120"/>
-            <i class="button-style"><FaApple/></i>{' '}
-            <i class="button-style"><FaSpotify/></i>
+            <i style={{padding:"30px"}} class="button-style"><FaApple/></i>{' '}
+            <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
           </div>
           <div class="col">
             <img class="image-style2" src={mead} width="300" height="120"/>
-            <i class="button-style"><FaApple/></i>{' '}
-            <i class="button-style"><FaSpotify/></i>
+            <i style={{padding:"30px"}} class="button-style"><FaApple/></i>{' '}
+            <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
           </div>
           <div class="col">
             <img class="image-style2" src={spare} width="300" height="120"/>
-            <i class="button-style"><FaApple/></i>{' '}
-            <i class="button-style"><FaSpotify/></i>
+            <i style={{padding:"30px"}} class="button-style"><FaApple/></i>{' '}
+            <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
           </div>
         </div>
         <div style={{padding:"30px"}} class="row">
           <div class="col">
           <img class="image-style2" src={beaut} width="300" height="120"/>
-          <i class="button-style"><FaApple/></i>{' '}
-          <i class="button-style"><FaSpotify/></i>
+          <i style={{padding:"30px"}} class="button-style"><FaApple/></i>{' '}
+          <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
           </div>
           <div class="col">
             <img class="image-style2" src={cheese} width="300" height="120"/>
-            <i class="button-style"><FaApple/></i>{' '}
-            <i class="button-style"><FaSpotify/></i>
+            <i style={{padding:"30px"}} class="button-style"><FaApple/></i>{' '}
+            <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
           </div>
           <div class="col">
             <img class="image-style2" src={vib2} width="300" height="120"/>
-            <i class="button-style"><FaApple/></i>{' '}
-            <i class="button-style"><FaSpotify/></i>
+            <i style={{padding:"30px"}} class="button-style"><FaApple/></i>{' '}
+            <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
           </div>
           <div class="col">
             <img class="image-style2" src={fran} width="300" height="120"/>
-            <i class="button-style"><FaApple/></i>{' '}
-            <i class="button-style"><FaSpotify/></i>
+            <i style={{padding:"30px"}} class="button-style"><FaApple/></i>{' '}
+            <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
           </div>
         </div>
         <div style={{padding:"30px"}} class="row">
           <div class="col">
           <img class="image-style2" src={harl} width="300" height="120"/>
-          <i class="button-style"><FaApple/></i>{' '}
-          <i class="button-style"><FaSpotify/></i>
+          <i style={{padding:"30px"}} class="button-style"><FaApple/></i>{' '}
+          <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
           </div>
           <div class="col">
             <img class="image-style2" src={who} width="300" height="120"/>
-            <i class="button-style"><FaApple/></i>{' '}
-            <i class="button-style"><FaSpotify/></i>
+            <i style={{padding:"30px"}} class="button-style"><FaApple/></i>{' '}
+            <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
           </div>
           <div class="col">
             <img class="image-style2" src={grass} width="300" height="120"/>
-            <i class="button-style"><FaApple/></i>{' '}
-            <i class="button-style"><FaSpotify/></i>
+            <i style={{padding:"30px"}} class="button-style"><FaApple/></i>{' '}
+            <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
           </div>
           <div class="col">
             <img class="image-style2" src={sprite} width="300" height="120"/>
-            <i class="button-style"><FaApple/></i>{' '}
-            <i class="button-style"><FaSpotify/></i>
+            <i style={{padding:"30px"}} class="button-style"><FaApple/></i>{' '}
+            <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
           </div>
         </div>
         <div style={{padding:"30px"}} class="row">
           <div class="col">
           <img class="image-style2" src={cabb} width="300" height="120"/>
-          <i class="button-style"><FaApple/></i>{' '}
-          <i class="button-style"><FaSpotify/></i>
+          <i style={{padding:"30px"}} class="button-style"><FaApple/></i>{' '}
+          <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
           </div>
           <div class="col">
             <img class="image-style2" src={lett} width="300" height="120"/>
-            <i class="button-style"><FaApple/></i>{' '}
-            <i class="button-style"><FaSpotify/></i>
+            <i style={{padding:"30px"}} class="button-style"><FaApple/></i>{' '}
+            <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
           </div>
           <div class="col">
             <img class="image-style2" src={dear} width="300" height="120"/>
-            <i class="button-style"><FaApple/></i>{' '}
-            <i class="button-style"><FaSpotify/></i>
+            <i style={{padding:"30px"}} class="button-style"><FaApple/></i>{' '}
+            <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
           </div>
           <div class="col">
             <img class="image-style2" src={withy} width="300" height="120"/>
-            <i class="button-style"><FaApple/></i>{' '}
-            <i class="button-style"><FaSpotify/></i>
+            <i style={{padding:"30px"}} class="button-style"><FaApple/></i>{' '}
+            <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
           </div>
         </div>
         <div style={{padding:"30px"}} class="row">
           <div class="col">
           <img class="image-style2" src={jams} width="300" height="120"/>
-          <i class="button-style"><FaApple/></i>{' '}
-          <i class="button-style"><FaSpotify/></i>
+          <i style={{padding:"30px"}} class="button-style"><FaApple/></i>{' '}
+          <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
           </div>
           <div class="col">
             <img class="image-style2" src={casa} width="300" height="120"/>
-            <i class="button-style"><FaApple/></i>{' '}
-            <i class="button-style"><FaSpotify/></i>
+            <i style={{padding:"30px"}} class="button-style"><FaApple/></i>{' '}
+            <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
           </div>
           <div class="col">
             <img class="image-style2" src={vib} width="300" height="120"/>
-            <i class="button-style"><FaApple/></i>{' '}
-            <i class="button-style"><FaSpotify/></i>
+            <i style={{padding:"30px"}} class="button-style"><FaApple/></i>{' '}
+            <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
           </div>
           <div class="col">
             <img class="image-style2" src={cac} width="300" height="120"/>
-            <i class="button-style"><FaApple/></i>{' '}
-            <i class="button-style"><FaSpotify/></i>
+            <i style={{padding:"30px"}} class="button-style"><FaApple/></i>{' '}
+            <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
           </div>
         </div>
         <div style={{padding:"30px"}} class="row">
           <div class="col">
           <img  class="image-style2"src={mayo} width="300" height="120"/>
-          <i class="button-style"><FaApple/></i>{' '}
-          <i class="button-style"><FaSpotify/></i>
+          <i style={{padding:"30px"}} class="button-style"><FaApple/></i>{' '}
+          <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
           </div>
           <div class="col">
 

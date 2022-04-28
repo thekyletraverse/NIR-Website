@@ -76,7 +76,7 @@
 }
 
 .image-style{
-  box-shadow: 20px 15px 50px .25px #0ff;
+  box-shadow: 20px 15px 50px .05px #0ff;
   animation-name: floating;
    animation-duration: 5s;
    animation-iteration-count: infinite;
@@ -84,7 +84,7 @@
 }
 
 .image-style2{
-  box-shadow: 20px 15px 50px .25px #FFD02B;
+  box-shadow: 20px 15px 50px .05px #FFD02B;
   animation-name: floating;
    animation-duration: 5s;
    animation-iteration-count: infinite;
@@ -92,7 +92,7 @@
 }
 
 .image-style3{
-  box-shadow: 20px 15px 50px .25px #8C6CDA;
+  box-shadow: 20px 15px 50px .05px #8C6CDA;
   animation-name: floating;
    animation-duration: 5s;
    animation-iteration-count: infinite;
