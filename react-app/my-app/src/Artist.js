@@ -67,13 +67,13 @@ export default function Artist() {
            </div>
            <div style={{padding:"30px",textAlign:"center"}} class="col">
 
-             <img src={kyle} width="300" height="120"/>
+             <img class="image-style" src={kyle} width="300" height="120"/>
              <h1 style={{padding:"30px",textAlign:"center"}} class="h2">KYLE TRAVERSE</h1>
              <i class="button-style"><FaInstagram/></i>{' '}
              <i class="button-style"><FaTwitter/></i>
            </div>
            <div style={{padding:"30px",textAlign:"center"}} class="col">
-             <img src={boat} width="300" height="120"/>
+             <img class="image-style" src={boat} width="300" height="120"/>
              <h1 style={{padding:"10px",textAlign:"center"}} class="h2">LICENSED BOAT OPERATORS</h1>
              <i class="button-style"><FaInstagram/></i>{' '}
              <i class="button-style"><FaTwitter/></i>
@@ -81,26 +81,26 @@ export default function Artist() {
          </div>
          <div style={{padding:"20px"}} class="row justify-content-md-center">
            <div style={{padding:"30px",textAlign:"center"}} class="col">
-             <img src={peer} width="300" height="120"/>
+             <img class="image-style" src={peer} width="300" height="120"/>
              <h1 style={{padding:"10px",textAlign:"center"}} class="h2">PEER PRESSURE</h1>
              <i class="button-style"><FaInstagram/></i>{' '}
              <i class="button-style"><FaTwitter/></i>
            </div>
            <div style={{padding:"30px",textAlign:"center"}} class="col align-items-center">
-             <img src={tim} width="300" height="120"/>
+             <img class="image-style" src={tim} width="300" height="120"/>
              <h1 style={{padding:"10px",textAlign:"center"}} class="h2">TIM FOIL</h1>
              <h1 style={{padding:"10px",textAlign:"center"}} class="h2">Official Site</h1>
              <i class="button-style"><FaInstagram/></i>{' '}
              <i class="button-style"><FaTwitter/></i>
            </div>
            <div style={{padding:"30px",textAlign:"center"}} class="col">
-             <img src={tom} width="300" height="120"/>
+             <img class="image-style" src={tom} width="300" height="120"/>
              <h1 style={{padding:"10px",textAlign:"center"}}  class="h2">TOM808</h1>
              <i class="button-style"><FaInstagram/></i>{' '}
              <i class="button-style"><FaTwitter/></i>
            </div>
            <div style={{padding:"30px",textAlign:"center"}} class="col">
-             <img src={pig} width="300" height="120"/>
+             <img class="image-style" src={pig} width="300" height="120"/>
              <h1 style={{padding:"10px",textAlign:"center"}}  class="h2">THE PIG, VERBATIM</h1>
 
              <i class="button-style"><FaInstagram/></i>{' '}

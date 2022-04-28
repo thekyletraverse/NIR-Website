@@ -48,7 +48,7 @@
   }
 }
 .h1{
-  font: normal small-caps normal 48px/1.4 Georgia;
+  font: normal small-caps normal 52px/1.4 Georgia;
   font-style: oblique 23deg;
 
 }
@@ -74,8 +74,9 @@
 .App-link {
   color: #61dafb;
 }
+
 .image-style{
-  box-shadow: 20px 40px 90px 1px #0ff;
+  box-shadow: 20px 15px 50px .25px #0ff;
   animation-name: floating;
    animation-duration: 3s;
    animation-iteration-count: infinite;
