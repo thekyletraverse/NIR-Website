@@ -50,11 +50,14 @@
 .h1{
   font: normal small-caps normal 48px/1.4 Georgia;
   font-style: oblique 23deg;
+
 }
 
 .h2{
-  font: normal small-caps normal 28px/1.4 Georgia;
+  font: normal small-caps normal 24px/1.4 Georgia;
   font-style: oblique 23deg;
+
+
 }
 .App-header {
   background-color: #19A6F6;
@@ -71,7 +74,13 @@
 .App-link {
   color: #61dafb;
 }
-
+.image-style{
+  box-shadow: 20px 40px 90px 1px #0ff;
+  animation-name: floating;
+   animation-duration: 3s;
+   animation-iteration-count: infinite;
+   animation-timing-function: ease-in-out;
+}
 
 @keyframes App-logo-spin {
   from {
@@ -98,4 +107,10 @@
           from{transform: translate3d(100px,-300px,0px)}
           /* If you just right, the number with a minus in front -850px */
           to{transform: translate3d(-800px,0px,0px)}
+      }
+
+@keyframes floating {
+          0% { transform: translate(0,  0px); }
+          50%  { transform: translate(0, 15px); }
+          100%   { transform: translate(0, -0px); }
       }

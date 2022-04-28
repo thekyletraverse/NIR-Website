@@ -48,7 +48,7 @@ export default function Music() {
           <div class="col">
 
             <img src={bean} width="300" height="120"/>
-            <Button class="button"><FaApple/></Button>{' '}
+            <i class="button"><FaApple/></i>{' '}
             <Button class="button"><FaSpotify/></Button>
           </div>
           <div class="col">

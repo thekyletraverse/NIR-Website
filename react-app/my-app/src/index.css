@@ -94,7 +94,9 @@ textAlign: center;
     color: white;
 }
 
-.button {
+.button-style {
   border: none;
   padding: 20px;
+  display: inline-block;
+  text-align: center;
 }
