@@ -33,7 +33,7 @@ export default function Shop() {
        </div>
 
        <div style={{padding:"660px"}} class="row justify-content-md-center">
-         <div style={{padding:"12px", textAlign:"center"}} class="col">
+         <div style={{padding:"15px", textAlign:"center"}} class="col">
            <img class="image-style4"src={tag} width="150" height="20"/>
            <text style={{padding:"18px"}} class="button-style h2">*Featuring Custom Tag!*</text>
          </div>
