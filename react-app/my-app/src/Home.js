@@ -30,11 +30,11 @@ function Home() {
       <div className="App-header">
         <div class="row">
           <div style={{ height: 120, marginTop: 10 }}class="col">
-            <i style={{padding: "40px"}}class="button-style fa-2x"><FaPlay/></i>
+
           </div>
 
           <div style={{ height: 120, marginTop: 10 }}class="col">
-
+<i style={{padding: "50px"}}class="button-style fa-2x"><FaPlay/></i>
           </div>
 
           <div style={{ height: 120, marginTop: 10 }}class="col">
@@ -92,7 +92,7 @@ function Home() {
           <div class="col">
 
              <FaCloud class="Cloud-logo"size="lg"/>
-  <i class="button-style fa-2x"><FaPlay/></i>
+  <i style={{padding:"20px"}}class="button-style fa-2x"><FaPlay/></i>
              <FaCloud class="Cloud-logo2" size="lg"/>
 
           </div>
