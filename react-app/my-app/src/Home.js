@@ -8,36 +8,34 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Routes, Route, Switch } from "react-router-dom";
 import useSound from 'use-sound';
 import { Button, Container} from 'react-bootstrap'
-import music from './react-app_my-app_src_JAZZ VIBES.mp3';
+import audio from './react-app_my-app_src_JAZZ VIBES.mp3';
 import React, { useState } from 'react';
 import { FaPlay, FaCloud} from 'react-icons/fa';
 import Footer from './footer'
 
 
 function Home() {
+  const audio = new Audio(
+    "./react-app_my-app_src_JAZZ VIBES.mp3"
+  );
 
-  const [play, { stop }] = useSound(
-      music,
-      { volume: 0.7}
-    );
-
-    const [isHovering, setIsHovering] = React.useState(
-      false
-    );
-
+  const start = () => {
+    audio.play();
+  };
   return (
     <div>
       <div className="App-header">
         <div class="row">
-          <div style={{ height: 100, marginTop: 10 }}class="col">
+          <div style={{ height: 80, marginTop: 10 }}class="col">
 
           </div>
 
-          <div style={{ height: 100, marginTop: 10 }}class="col">
-            <i style={{padding: "50px"}}class="button-style fa-2x"><FaPlay/></i>
+          <div style={{ padding: "20px", height: 80, marginTop: 10 }}class="col">
+
+            <a class="button-style3 fa-2x" onClick={start}><FaPlay/></a>
           </div>
 
-          <div style={{ height: 100, marginTop: 10 }}class="col">
+          <div style={{ height: 80, marginTop: 10 }}class="col">
 
           </div>
         </div>

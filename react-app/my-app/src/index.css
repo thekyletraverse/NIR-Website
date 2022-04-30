@@ -26,7 +26,8 @@ code {
   height: 40px;
   width: 100%;
   text-align: center;
-
+  font: normal small-caps normal 20px/1.4 Georgia;
+font-style: oblique 23deg;
 borderTop: 1px solid #E7E7E7;
 textAlign: center;
 
@@ -123,4 +124,16 @@ textAlign: center;
   cursor:pointer;
    outline:none;
    color: #2699FB;
+}
+
+.button-style3 {
+  padding: 10px;
+  display: inline-block;
+  text-align: right;
+  cursor:pointer;
+   outline: none;
+   background-color: Transparen;
+ background-repeat:no-repeat;
+ border: none;
+ color: white;
 }
