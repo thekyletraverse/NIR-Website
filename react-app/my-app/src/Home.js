@@ -43,7 +43,7 @@ function Home() {
 
           </div>
 
-          <div style={{ padding: "20px", height: 80, marginTop: 10 }}class="col">
+          <div style={{ padding: "40px", height: 80, marginTop: 10 }}class="col">
 
             <a class="button-style3 fa-2x" onMouseEnter={() => {
 

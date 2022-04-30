@@ -4,13 +4,25 @@ import bigboss from './Events/rickysliveshowFEB2022 copy.JPEG'
 import rickys2 from './Events/IMG_0603.jpg'
 import { FaHourglassStart} from 'react-icons/fa';
 import Footer from './footer'
+import SimpleImageSlider from "react-simple-image-slider";
+import 'react-slideshow-image/dist/styles.css'
+import image1 from './Events/IMG_9637.JPEG';
+import image2 from './Events/IMG_0603.jpg';
+import image3 from './Events/IMG_9611.JPEG'
 
+const images = [
+  { url: image1 },
+  { url: image2 },
+  { url: image3 },
+
+];
 export default function Events() {
+
+
   return (
     <div>
 
     <div class="events">
-
     <h1 style={{padding:"30px"}} class="h1">EVENTS</h1>
 
     <div class="container">
@@ -20,7 +32,13 @@ export default function Events() {
         <div style={{padding:"10px", textAlign:"center"}} class="col">
           <h1 style={{padding:"10px",textAlign:"center"}} class="h1">PREVIOUS:</h1>
         </div>
-
+        <SimpleImageSlider
+                width={600}
+                height={300}
+                images={images}
+                showBullets={true}
+                showNavs={true}
+              />
       </div>
 
       <div style={{padding:"1px"}} class="row justify-content-md-center">
