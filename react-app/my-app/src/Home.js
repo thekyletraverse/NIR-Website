@@ -39,7 +39,7 @@ function Home() {
     <div>
       <div className="App-header">
         <div class="row">
-          <div style={{ height: 80, marginTop: 10 }}class="col">
+          <div style={{ height: 60, marginTop: 10 }}class="col">
 
           </div>
 
@@ -52,7 +52,7 @@ function Home() {
     ><FaPlay/></a>
           </div>
 
-          <div style={{ height: 80, marginTop: 10 }}class="col">
+          <div style={{ height: 60, marginTop: 10 }}class="col">
 
           </div>
         </div>
@@ -72,7 +72,6 @@ function Home() {
               height="60" className="image-style6" alt="logo" />
 
              <FaCloud class="Cloud-logo3" size="lg"/>
-
 
           </div>
 
