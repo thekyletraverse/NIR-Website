@@ -114,3 +114,13 @@ textAlign: center;
    outline:none;
    color: white;
 }
+
+.button-style2 {
+  border: none;
+  padding: 10px;
+  display: inline-block;
+  text-align: right;
+  cursor:pointer;
+   outline:none;
+   color: #2699FB;
+}
