@@ -9,6 +9,11 @@
   pointer-events: none;
 }
 
+.App-logo2 {
+  height: 8vmin;
+  pointer-events: none;
+}
+
 .Cloud-logo {
   height: 30vmin;
   pointer-events: none;
@@ -27,6 +32,12 @@
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 50s linear;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo2 {
+    animation: App-logo-spin infinite 20s linear;
   }
 }
 
@@ -57,7 +68,7 @@
 
 .h2{
   font: normal small-caps normal 16px/1.4 Georgia;
-  font-style: oblique 27deg;
+  font-style: oblique 2deg;
   color: white;
 
 }
