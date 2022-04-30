@@ -71,10 +71,11 @@ export default function Music() {
             <a href="https://music.apple.com/us/album/31st-and-market-single/1619546378">
               <i style={{padding:"30px"}} class="button-style"><FaApple/></i>
             </a>
-            <a href="https://open.spotify.com/album/3wf3mNIBOfiXfGnhZXu18H?si=Lvqmmd6FS8CLZ0hDtDAGDw">
+            <a href="https://open.spotify.com/album/5TKsanaw6TCjuFpza7uDZR?si=Ymm3Sg4ZTV-evMRE79nY8w">
               <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
             </a>
           </div>
+
           <div style={{padding:"20px", textAlign:"center"}} class="col">
             <img class="image-style2" src={bean} width="300" height="120"/>
             <a href="https://music.apple.com/us/album/spilled-beans/1617701719">
@@ -84,7 +85,6 @@ export default function Music() {
               <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
             </a>
           </div>
-
 
           <div style={{padding:"20px", textAlign:"center"}} class="col">
             <img class="image-style2" src={bum} width="300" height="120"/>
@@ -115,7 +115,7 @@ export default function Music() {
             <a href="https://music.apple.com/us/album/kem-pyooder-ep/1607568726">
               <i style={{padding:"30px"}} class="button-style"><FaApple/></i>
             </a>
-            <a href="https://open.spotify.com/album/3oxzbB7lydutstjPZWNruq?si=zk3ubid3TZeDJGKh0GSmhQ">
+            <a href="https://open.spotify.com/album/0yyMrUmlr7CIu661BU4rsw?si=YanfLe8bQ7OB1o8l4aPTcg">
               <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
             </a>
           </div>
@@ -144,7 +144,7 @@ export default function Music() {
             <a href="https://music.apple.com/us/album/olive-oil-slide-that-b-t-though-suddenly-rework-suddenly/1596334503">
               <i style={{padding:"30px"}} class="button-style"><FaApple/></i>
             </a>
-            <a href="https://open.spotify.com/album/5Gf4U7LUFWq2F0BFXWTmaK?si=I3d9Z5z9RMSQxzPvF1Nj3w">
+            <a href="https://open.spotify.com/album/7H2dC3MxiefEjFCtKqW2Hk?si=_vbhmRK_SDyOwCwvrVFDSA">
               <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
             </a>
           </div>
@@ -197,7 +197,7 @@ export default function Music() {
           <a href="https://music.apple.com/us/album/from-strangers-feat-ryan-seybolt-single/1551138498">
             <i style={{padding:"30px"}} class="button-style"><FaApple/></i>
           </a>
-          <a href="https://open.spotify.com/album/1BNvQpQoMLVeRDfxqv5zaE?si=-7ZHruFIShuk_1i7v8OG0g">
+          <a href="https://open.spotify.com/album/23C9soxWBiPY1W6avWW3r1?si=5pdpfRpHStqYNB328SNbpg">
             <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
           </a>
           </div>
@@ -306,7 +306,7 @@ export default function Music() {
             <a href="https://music.apple.com/us/album/face-2-face-single/1515987675">
               <i style={{padding:"30px"}} class="button-style"><FaApple/></i>
             </a>
-            <a href="https://open.spotify.com/album/1BNvQpQoMLVeRDfxqv5zaE?si=-7ZHruFIShuk_1i7v8OG0g">
+            <a href="https://open.spotify.com/album/5Ys0NKjzA6ysilTgj4qtGk?si=jJiQ2ef4QHy3DiXbOZwAGg">
               <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
             </a>
           </div>
@@ -394,7 +394,7 @@ export default function Music() {
         <a href="https://music.apple.com/us/album/my-first-rap-song-feat-zinadelphia-remix-single/1497151711">
           <i style={{padding:"30px"}} class="button-style"><FaApple/></i>
         </a>
-        <a href="https://open.spotify.com/album/7JAMThtQExt6hZYGFZSGjw?si=jfiv03oyQaaMXfVYUPkClQ">
+        <a href="https://open.spotify.com/album/2UF4Rfr4zoj84B8QGpxHEd?si=DF5gl8IcTeuZ6Ack3rFqHg">
           <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
         </a>
         <a href="https://soundcloud.com/wasteddazemusic/sets/bummerjams-vol-ii?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">
@@ -537,7 +537,7 @@ export default function Music() {
           <a href="https://music.apple.com/us/album/bittersweet-ep/1455211321">
             <i style={{padding:"30px"}} class="button-style"><FaApple/></i>
           </a>
-          <a href="https://open.spotify.com/album/6fZBZjjq13pVx8annZm4kO?si=qHAhQ2UlQn2_EnjkckvprA">
+          <a href="https://open.spotify.com/album/028W1qbVdcUKw0LGknzmTT?si=oYDBQV0ZQ7uWI815TdUCRw">
             <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
           </a>
           <a href="https://soundcloud.com/nothingiconicrecords/sets/vibrant-bowling-green?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">
