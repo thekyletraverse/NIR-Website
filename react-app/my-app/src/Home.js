@@ -107,7 +107,7 @@ function Home() {
                   onMouseLeave={() => {
                   stop2();
                   }}><FaPlay/></a>
-             <FaCloud class="Cloud-logo" size="sm"/>
+             <FaCloud class="Cloud-logo3" size="sm"/>
           </div>
 
           <div class="col">
@@ -121,7 +121,7 @@ function Home() {
          setIsHovering(false);
          stop3();
        }}><FaPlay/></i>
-             <FaCloud class="Cloud-logo2" size="lg"/>
+             <FaCloud class="Cloud-logo3" size="lg"/>
 
           </div>
 
