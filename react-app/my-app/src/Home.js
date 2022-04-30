@@ -29,7 +29,7 @@ function Home() {
     <div>
       <div className="App-header">
         <div class="row">
-          <div style={{ height: 145, marginTop: 10 }}class="col">
+          <div style={{ height: 140, marginTop: 10 }}class="col">
 
           </div>
 
@@ -38,7 +38,7 @@ function Home() {
           </div>
 
           <div style={{ height: 145, marginTop: 10 }}class="col">
-        
+
           </div>
         </div>
 
@@ -58,12 +58,11 @@ function Home() {
 
              <FaCloud class="Cloud-logo3" size="lg"/>
 
-             <FaCloud class="Cloud-logo" size="sm"/>
+
           </div>
 
           <div class="col">
 
-             <FaCloud class="Cloud-logo"size="lg"/>
 
 
 
@@ -85,7 +84,7 @@ function Home() {
             <img src={splat} width="300"
                   height="120" className="image-style6" alt="logo" />
 
-             <FaCloud class="Cloud-logo3" size="lg"/>
+          
 
              <FaCloud class="Cloud-logo" size="sm"/>
           </div>
