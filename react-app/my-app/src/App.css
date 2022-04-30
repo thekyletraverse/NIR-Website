@@ -74,7 +74,7 @@
 }
 .App-header {
   background-color: #19A6F6;
-  min-height: 28vh;
+  min-height: 24vh;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -137,6 +137,14 @@
 }
 
 .image-style7{
+  box-shadow: 20px 15px 50px .05px #E3DB0C;
+  animation-name: floating;
+   animation-duration: 3s;
+   animation-iteration-count: infinite;
+   animation-timing-function: ease-in-out;
+   display: inline-block;
+}
+.image-style8{
   box-shadow: 20px 15px 50px .05px #E3DB0C;
   animation-name: floating;
    animation-duration: 3s;

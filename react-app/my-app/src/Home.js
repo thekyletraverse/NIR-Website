@@ -29,15 +29,15 @@ function Home() {
     <div>
       <div className="App-header">
         <div class="row">
-          <div style={{ height: 120, marginTop: 10 }}class="col">
+          <div style={{ height: 100, marginTop: 10 }}class="col">
 
           </div>
 
-          <div style={{ height: 120, marginTop: 10 }}class="col">
-<i style={{padding: "50px"}}class="button-style fa-2x"><FaPlay/></i>
+          <div style={{ height: 100, marginTop: 10 }}class="col">
+            <i style={{padding: "50px"}}class="button-style fa-2x"><FaPlay/></i>
           </div>
 
-          <div style={{ height: 120, marginTop: 10 }}class="col">
+          <div style={{ height: 100, marginTop: 10 }}class="col">
 
           </div>
         </div>
@@ -85,14 +85,14 @@ function Home() {
                   height="120" className="image-style6" alt="logo" />
 
 
-
+<i style={{padding: "50px"}}class="button-style fa-2x"><FaPlay/></i>
              <FaCloud class="Cloud-logo" size="sm"/>
           </div>
 
           <div class="col">
 
-             <FaCloud class="Cloud-logo"size="lg"/>
-  <i style={{padding:"20px"}}class="button-style fa-2x"><FaPlay/></i>
+             <FaCloud class="Cloud-logo "size="lg"/>
+             <i style={{padding:"20px"}}class="button-style fa-2x"><FaPlay/></i>
              <FaCloud class="Cloud-logo2" size="lg"/>
 
           </div>
