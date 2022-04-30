@@ -113,7 +113,7 @@
 }
 
 .image-style4{
-  box-shadow: 20px 15px 50px .05px #DD4C13;
+  box-shadow: 20px 15px 50px 5px #DD4C13;
   animation-name: floating2;
    animation-duration: 5s;
    animation-iteration-count: infinite;

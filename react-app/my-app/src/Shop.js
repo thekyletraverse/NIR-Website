@@ -33,7 +33,7 @@ export default function Shop() {
            </a>
        </div>
        <div class="row justify-content-center">
-         <div style={{padding:"180px", textAlign:"center"}} class="col">
+         <div style={{padding:"110px", textAlign:"center"}} class="col">
            <img class="image-style4"src={tap} width="470" height="270"/>
            <text style={{padding:"35px"}} class="button-style h2">Coming Soon</text>
            <text class="button-style h2">Nothing Iconic Tapestry</text>
