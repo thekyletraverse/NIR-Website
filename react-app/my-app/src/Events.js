@@ -18,7 +18,7 @@ export default function Events() {
       <div style={{padding:"10px"}} class="row justify-content-md-center">
 
         <div style={{padding:"10px", textAlign:"center"}} class="col">
-          <h1 style={{padding:"20px",textAlign:"center"}} class="h1">PREVIOUS:</h1>
+          <h1 style={{padding:"10px",textAlign:"center"}} class="h1">PREVIOUS:</h1>
         </div>
 
       </div>
@@ -44,12 +44,12 @@ export default function Events() {
       <div style={{padding:"10px"}} class="row justify-content-md-center">
 
         <div style={{padding:"20px", textAlign:"center"}} class="col">
-          <h1 style={{padding:"30px",textAlign:"center"}} class="h1">UPCOMING:</h1>
+          <h1 style={{padding:"20px",textAlign:"center"}} class="h1">UPCOMING:</h1>
         </div>
 
       </div>
       <div class="row justify-content-md-center">
-        <div style={{padding:"20px", textAlign:"center"}} class="col">
+        <div style={{padding:"10px", textAlign:"center"}} class="col">
           <h1 class="h2">PLEASE WAIT...</h1>
           <i class="button-style App-logo2 fa-2x"><FaHourglassStart/></i>
           <h1 class="h2">MORE COMING SOON!</h1>

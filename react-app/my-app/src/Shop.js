@@ -14,40 +14,33 @@ export default function Shop() {
 
     <div class="shop">
        <h1 style={{padding:"25px"}} class="h1">SHOP</h1>
-       <div class="row justify-content-md-center">
-         <div style={{padding:"200px", textAlign:"center"}} class="col">
+       <div class="row justify-content-center">
+         <div style={{padding:"100px", textAlign:"center"}} class="col">
            <img class="image-style4"src={design1} width="450" height="270"/>
-           <text style={{padding:"30px"}} class="button-style h2">$20</text>
+           <text style={{padding:"35px"}} class="button-style h2">$20</text>
            <text class="button-style h2">White "Texting While Driving" T-Shirt</text>
            <a href="">
              <i class="button-style"><FaShopify/></i>
            </a>
          </div>
+
          <div style={{padding:"200px", textAlign:"center"}} class="col justify-content-md-center">
            <img class="image-style4"src={design2} width="450" height="270"/>
-           <text style={{padding:"40px"}} class="button-style h2">$20</text>
-           <text  class="button-style h2">Tan "Tim Foil" T-Shirt</text>
+           <text style={{padding:"30px"}} class="button-style h2">$20</text>
+           <text  class="button-style h2">Tan "Tim Foil Face" T-Shirt</text>
            <a href="">
              <i class="button-style"><FaShopify/></i>
            </a>
        </div>
-
-       <div style={{padding:"660px"}} class="row justify-content-md-center">
-         <div style={{padding:"15px", textAlign:"center"}} class="col">
-           <img class="image-style4"src={tag} width="150" height="20"/>
-           <text style={{padding:"18px"}} class="button-style h2">*Featuring Custom Tag!*</text>
-         </div>
-       </div>
-
-       <div class="row justify-content-md-center">
-         <div style={{padding:"200px", textAlign:"center"}} class="col">
-           <img class="image-style4"src={tap} width="450" height="270"/>
-           <text style={{padding:"30px"}} class="button-style h2">Coming Soon</text>
+       <div class="row justify-content-center">
+         <div style={{padding:"180px", textAlign:"center"}} class="col">
+           <img class="image-style4"src={tap} width="470" height="270"/>
+           <text style={{padding:"35px"}} class="button-style h2">Coming Soon</text>
            <text class="button-style h2">Nothing Iconic Tapestry</text>
 
          </div>
-         <div style={{padding:"200px", textAlign:"center"}} class="col justify-content-md-center">
-           <img class="image-style4"src={stick} width="450" height="270"/>
+         <div style={{padding:"20px", textAlign:"center"}} class="col justify-content-md-center">
+           <img class="image-style4"src={stick} width="470" height="270"/>
            <text style={{padding:"40px"}} class="button-style h2">Coming Soon</text>
            <text  class="button-style h2">Nothing Iconic Sticker</text>
 

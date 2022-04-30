@@ -28,7 +28,7 @@ function Home() {
     <div>
       <div className="App-header">
         <div>
-          <div style={{ height: 165, marginTop: 6 }}class="col">
+          <div style={{ height: 165, marginTop: 10 }}class="col">
           <h1 class="h1" style={{fontSize: "1rem"}}>Hover!</h1>
           <Button variant= "dark" size="xl"
               onMouseEnter={() => {
@@ -44,13 +44,14 @@ function Home() {
 
           </span>
             </Button>
+            <img src={monst} width="300"
+              height="120" className="image-style6" alt="logo" />
             <img src={notta} width="250"
               height="200" className="App-logo" alt="logo" />
           </div>
           <div class="col">
              <FaCloud class="Cloud-logo"size="lg"/>
-             <img src={monst} width="300"
-               height="120" className="image-style6" alt="logo" />
+
              <FaCloud class="Cloud-logo3" size="lg"/>
                <img src={look} width="300"
                  height="120" className="image-style6" alt="logo" />
