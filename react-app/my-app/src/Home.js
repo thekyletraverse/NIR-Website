@@ -39,7 +39,7 @@ function Home() {
     <div>
       <div className="App-header">
         <div class="row">
-          <div style={{ height: 80, marginTop: 10 }}class="col">
+          <div style={{ height: 60, marginTop: 10 }}class="col">
 
           </div>
 
@@ -52,7 +52,7 @@ function Home() {
     ><FaPlay/></a>
           </div>
 
-          <div style={{ height: 80, marginTop: 10 }}class="col">
+          <div style={{ height: 60, marginTop: 10 }}class="col">
 
           </div>
         </div>
@@ -63,13 +63,13 @@ function Home() {
 
              <FaCloud class="Cloud-logo"size="lg"/>
 
-             <FaCloud class="Cloud-logo2" size="lg"/>
+             <FaCloud class="Cloud-logo3" size="lg"/>
 
           </div>
 
           <div class="col">
           <img src={monst} width="300"
-              height="80" className="image-style6" alt="logo" />
+              height="60" className="image-style6" alt="logo" />
 
              <FaCloud class="Cloud-logo3" size="lg"/>
 
@@ -90,14 +90,14 @@ function Home() {
 
              <FaCloud class="Cloud-logo"size="lg"/>
 
-             <FaCloud class="Cloud-logo2" size="lg"/>
+             <FaCloud class="Cloud-logo3" size="lg"/>
 
           </div>
 
           <div class="col">
 
             <img src={splat} width="300"
-                  height="80" className="image-style6" alt="logo" />
+                  height="60" className="image-style6" alt="logo" />
 
 
                   <a class="button-style3 fa-2x" onMouseEnter={() => {
@@ -107,12 +107,12 @@ function Home() {
                   onMouseLeave={() => {
                   stop2();
                   }}><FaPlay/></a>
-             <FaCloud class="Cloud-logo3" size="sm"/>
+             <FaCloud class="Cloud-logo2" size="sm"/>
           </div>
 
           <div class="col">
 
-             <FaCloud class="Cloud-logo "size="lg"/>
+
              <i style={{padding:"20px"}}class="button-style fa-2x" onMouseEnter={() => {
          setIsHovering(true);
          play3();

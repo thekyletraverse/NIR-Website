@@ -37,7 +37,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo2 {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 30s linear;
   }
 }
 
@@ -169,9 +169,9 @@
   }
 
 @keyframes cloud2 {
-        from{transform: translate3d(-100px,0px,0px)}
+        from{transform: translate3d(-90px,0px,0px)}
         /* If you just right, the number with a minus in front -850px */
-        to{transform: translate3d(850px,0px,0px)}
+        to{transform: translate3d(550px,0px,0px)}
     }
 
 @keyframes cloud3 {
