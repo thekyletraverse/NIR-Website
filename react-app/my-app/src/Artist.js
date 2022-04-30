@@ -27,7 +27,7 @@ export default function Artist() {
          <div style={{padding:"10px"}} class="row justify-content-md-center">
            <div style={{padding:"20px", textAlign:"center"}} class="col">
              <img class="image-style" src={dog} width="300" height="120"/>
-             <h1 style={{padding:"40px",textAlign:"center"}} class="h2">COFFEE DOG</h1>
+             <h1 style={{padding:"30px",textAlign:"center"}} class="h2">COFFEE DOG</h1>
              <a href="https://www.instagram.com/jpshannon/?utm_source=ig_embed&amp;utm_campaign=loading">
              <i class="button-style"><FaInstagram/></i>
              </a>
@@ -38,7 +38,7 @@ export default function Artist() {
            </div>
            <div style={{padding:"20px",textAlign:"center"}} class="col">
              <img class="image-style" src={goop} width="300" height="120"/>
-             <h1 style={{padding:"40px",textAlign:"center"}} class="h2">GOOPILY</h1>
+             <h1 style={{padding:"30px",textAlign:"center"}} class="h2">GOOPILY</h1>
              <a href="https://www.instagram.com/goopily/?utm_source=ig_embed&amp;utm_campaign=loading">
              <i class="button-style"><FaInstagram/></i>
              </a>
@@ -49,7 +49,7 @@ export default function Artist() {
            </div>
            <div style={{padding:"20px",textAlign:"center"}} class="col">
              <img class="image-style" src={kev} width="300" height="120"/>
-             <h1 style={{padding:"40px",textAlign:"center"}} class="h2">GROUP KEVIN</h1>
+             <h1 style={{padding:"30px",textAlign:"center"}} class="h2">GROUP KEVIN</h1>
              <a href="https://www.instagram.com/grpkvn/?utm_source=ig_embed&amp;utm_campaign=loading">
              <i class="button-style"><FaInstagram/></i>
              </a>
@@ -60,9 +60,9 @@ export default function Artist() {
            </div>
            <div style={{padding:"20px",textAlign:"center"}} class="col">
              <img class="image-style" src={hunt} width="300" height="120"/>
-             <h1 style={{padding:"40px",textAlign:"center"}} class="h2">HUNTER LIVSEY</h1>
+             <h1 style={{padding:"30px",textAlign:"center"}} class="h2">HUNTER LIVSEY</h1>
              <a href="https://howntur.weebly.com/">
-             <h1 style={{padding:"1px",textAlign:"center"}} class="h2">Official Site</h1>
+             <h1 style={{textAlign:"center"}} class="h2">Official Site</h1>
              </a>
              <a href="https://www.instagram.com/howntur/?utm_source=ig_embed&amp;utm_campaign=loading">
              <i class="button-style"><FaInstagram/></i>
@@ -76,7 +76,7 @@ export default function Artist() {
          <div style={{padding:"10px"}} class="row justify-content-md-center">
            <div style={{padding:"20px",textAlign:"center"}} class="col">
              <img class="image-style" src={jay} width="300" height="120"/>
-             <h1 style={{padding:"40px",textAlign:"center"}} class="h2">JAY OLIVE</h1>
+             <h1 style={{padding:"30px",textAlign:"center"}} class="h2">JAY OLIVE</h1>
              <a href="https://www.instagram.com/jasonnhorvath/?utm_source=ig_embed&amp;utm_campaign=loading">
              <i class="button-style"><FaInstagram/></i>
              </a>
@@ -88,7 +88,7 @@ export default function Artist() {
            <div style={{padding:"20px",textAlign:"center"}} class="col">
 
              <img class="image-style" src={just} width="300" height="120"/>
-             <h1 style={{padding:"40px",textAlign:"center"}} class="h2">JUSTIN SCHWARTZ</h1>
+             <h1 style={{padding:"30px",textAlign:"center"}} class="h2">JUSTIN SCHWARTZ</h1>
              <a href="https://www.instagram.com/justin_schwartz/?utm_source=ig_embed&amp;utm_campaign=loading">
              <i class="button-style"><FaInstagram/></i>
              </a>
@@ -100,7 +100,7 @@ export default function Artist() {
            <div style={{padding:"20px",textAlign:"center"}} class="col">
 
              <img class="image-style" src={kyle} width="300" height="120"/>
-             <h1 style={{padding:"40px",textAlign:"center"}} class="h2">KYLE TRAVERSE</h1>
+             <h1 style={{padding:"30px",textAlign:"center"}} class="h2">KYLE TRAVERSE</h1>
              <a href="https://www.instagram.com/thetimfoil/?utm_source=ig_embed&amp;utm_campaign=loading">
              <i class="button-style"><FaInstagram/></i>
              </a>
@@ -111,7 +111,7 @@ export default function Artist() {
            </div>
            <div style={{padding:"20px",textAlign:"center"}} class="col">
              <img class="image-style" src={boat} width="300" height="120"/>
-             <h1 style={{padding:"40px",textAlign:"center"}} class="h2">LICENSED BOAT OPERATORS</h1>
+             <h1 style={{padding:"30px",textAlign:"center"}} class="h2">LICENSED BOAT OPERATORS</h1>
              <a href="https://www.instagram.com/licensedboatoperators/?utm_source=ig_embed&amp;utm_campaign=loading">
              <i class="button-style"><FaInstagram/></i>
              </a>
@@ -121,7 +121,7 @@ export default function Artist() {
          <div style={{padding:"10px"}} class="row justify-content-md-center">
            <div style={{padding:"20px",textAlign:"center"}} class="col">
              <img class="image-style" src={peer} width="300" height="120"/>
-             <h1 style={{padding:"40px",textAlign:"center"}} class="h2">PEER PRESSURE</h1>
+             <h1 style={{padding:"30px",textAlign:"center"}} class="h2">PEER PRESSURE</h1>
 
            </div>
            <div style={{padding:"20px",textAlign:"center"}} class="col align-items-center">
@@ -140,12 +140,12 @@ export default function Artist() {
            </div>
            <div style={{padding:"20px",textAlign:"center"}} class="col">
              <img class="image-style" src={tom} width="300" height="120"/>
-             <h1 style={{padding:"40px",textAlign:"center"}}  class="h2">TOM808</h1>
+             <h1 style={{padding:"30px",textAlign:"center"}}  class="h2">TOM808</h1>
 
            </div>
            <div style={{padding:"20px",textAlign:"center"}} class="col">
              <img class="image-style" src={pig} width="300" height="120"/>
-             <h1 style={{padding:"40px",textAlign:"center"}}  class="h2">THE PIG, VERBATIM</h1>
+             <h1 style={{padding:"30px",textAlign:"center"}}  class="h2">THE PIG, VERBATIM</h1>
 
              <a href="https://www.instagram.com/thepig.verbatim_music/?utm_source=ig_embed&amp;utm_campaign=loading">
              <i class="button-style"><FaInstagram/></i>
