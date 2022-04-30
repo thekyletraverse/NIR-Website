@@ -7,7 +7,7 @@ import Footer from './footer'
 import SimpleImageSlider from "react-simple-image-slider";
 import 'react-slideshow-image/dist/styles.css'
 import image1 from './Events/IMG_9637.JPEG';
-import image2 from './Events/IMG_0603.jpg';
+import image2 from './Events/E448AC69-7EC9-4517-AB7B-25ABCA5243B8.JPG';
 import image3 from './Events/IMG_9611.JPEG'
 
 const images = [
@@ -27,19 +27,19 @@ export default function Events() {
 
     <div class="container">
 
-      <div style={{padding:"10px"}} class="row justify-content-md-center">
+      <div style={{padding:"15px"}} class="row justify-content-md-center">
 
-        <div style={{padding:"10px", textAlign:"center"}} class="col">
-          <h1 style={{padding:"10px",textAlign:"center"}} class="h1">PREVIOUS:</h1>
-        </div>
-        <SimpleImageSlider
-                width={600}
-                height={300}
+        <div style={{padding:"10px", textAlign:"center", width: 10, height: 470, marginTop: 1}} class="col image-style5">
+        <SimpleImageSlider class="image-style5"
+                width={1266}
+                height={450}
                 images={images}
                 showBullets={true}
                 showNavs={true}
               />
+        </div>
       </div>
+
 
       <div style={{padding:"1px"}} class="row justify-content-md-center">
 
@@ -62,7 +62,7 @@ export default function Events() {
       <div style={{padding:"10px"}} class="row justify-content-md-center">
 
         <div style={{padding:"20px", textAlign:"center"}} class="col">
-          <h1 style={{padding:"20px",textAlign:"center"}} class="h1">UPCOMING:</h1>
+          <h1 style={{padding:"25px",textAlign:"center"}} class="h1">UPCOMING:</h1>
         </div>
 
       </div>
