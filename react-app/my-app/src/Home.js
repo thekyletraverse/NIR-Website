@@ -38,12 +38,12 @@ function Home() {
                 height="120" className="image-style6" alt="logo" />
           </div>
           <div class="col">
+          <img src={look} width="190"
+            height="120" className="App-logo" alt="logo"  />
              <FaCloud class="Cloud-logo"size="lg"/>
              <FaCloud class="Cloud-logo3" size="lg"/>
              <FaCloud class="Cloud-logo2" size="lg"/>
              <FaCloud class="Cloud-logo" size="sm"/>
-             <img src={look} width="300"
-               height="120" className="image-style6" alt="logo" />
           </div>
 
         </div>
