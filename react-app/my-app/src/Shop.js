@@ -6,7 +6,7 @@ import design2 from './ShopItems/Screen Shot 2022-04-28 at 12.04.20 AM.png'
 import tag from './ShopItems/21D1A1A9-43DF-4E23-8709-E754FF276C82.jpeg'
 import tap from './NIR Tapestry.jpg'
 import stick from './Nothing Iconic Reccords opng.png'
-import { FaShopify} from 'react-icons/fa';
+import { FaCartPlus} from 'react-icons/fa';
 
 export default function Shop() {
   return (
@@ -20,7 +20,7 @@ export default function Shop() {
            <text style={{padding:"45px"}} class="button-style h2">$20</text>
            <text class="button-style h2">White "Texting While Driving" T-Shirt</text>
            <a href="">
-             <i class="button-style fa-2x"><FaShopify/></i>
+             <i class="button-style fa-2x"><FaCartPlus/></i>
            </a>
          </div>
 
@@ -29,7 +29,7 @@ export default function Shop() {
            <text style={{padding:"40px"}} class="button-style h2">$20</text>
            <text  class="button-style h2">Tan "Tim Foil Face" T-Shirt</text>
            <a href="">
-             <i class="button-style fa-2x"><FaShopify/></i>
+             <i class="button-style fa-2x"><FaCartPlus/></i>
            </a>
        </div>
        <div class="row justify-content-center">

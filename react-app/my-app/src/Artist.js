@@ -76,7 +76,7 @@ export default function Artist() {
          <div style={{padding:"10px"}} class="row justify-content-md-center">
            <div style={{padding:"20px",textAlign:"center"}} class="col">
              <img class="image-style" src={jay} width="300" height="120"/>
-             <h1 style={{padding:"30px",textAlign:"center"}} class="h2">JAY OLIVE</h1>
+             <h1 style={{padding:"50px",textAlign:"center"}} class="h2">JAY OLIVE</h1>
              <a href="https://www.instagram.com/jasonnhorvath/?utm_source=ig_embed&amp;utm_campaign=loading">
              <i class="button-style"><FaInstagram/></i>
              </a>
@@ -111,7 +111,7 @@ export default function Artist() {
            </div>
            <div style={{padding:"20px",textAlign:"center"}} class="col">
              <img class="image-style" src={boat} width="300" height="120"/>
-             <h1 style={{padding:"30px",textAlign:"center"}} class="h2">LICENSED BOAT OPERATORS</h1>
+             <h1 style={{padding:"17px",textAlign:"center"}} class="h2">LICENSED BOAT OPERATORS</h1>
              <a href="https://www.instagram.com/licensedboatoperators/?utm_source=ig_embed&amp;utm_campaign=loading">
              <i class="button-style"><FaInstagram/></i>
              </a>
