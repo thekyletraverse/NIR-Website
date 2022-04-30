@@ -3,6 +3,7 @@ import './App.css';
 import monst from './NI Monster.png'
 import notta from './1Not an Icon.png'
 import look from './Not an Iconn.png'
+import splat from './Nothing Iconic Reccords opng.png'
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Routes, Route, Switch } from "react-router-dom";
 import useSound from 'use-sound';
@@ -28,39 +29,23 @@ function Home() {
     <div>
       <div className="App-header">
         <div>
-          <div style={{ height: 165, marginTop: 10 }}class="col">
-          <h1 class="h1" style={{fontSize: "1rem"}}>Hover!</h1>
-          <Button variant= "dark" size="xl"
-              onMouseEnter={() => {
-                setIsHovering(true);
-                play();
-              }}
-              onMouseLeave={() => {
-                setIsHovering(false);
-                stop();
-              }}
-            ><FaPlay />
-            <span role="img" aria-label="trumpet">
-
-          </span>
-            </Button>
+          <div style={{ height: 145, marginTop: 10 }}class="col">
+          <img src={notta} width="250"
+            height="200" className="App-logo" alt="logo" />
             <img src={monst} width="300"
               height="120" className="image-style6" alt="logo" />
-            <img src={notta} width="250"
-              height="200" className="App-logo" alt="logo" />
+              <img src={splat} width="300"
+                height="120" className="image-style6" alt="logo" />
           </div>
           <div class="col">
              <FaCloud class="Cloud-logo"size="lg"/>
-
              <FaCloud class="Cloud-logo3" size="lg"/>
-               <img src={look} width="300"
-                 height="120" className="image-style6" alt="logo" />
+             <FaCloud class="Cloud-logo2" size="lg"/>
+             <FaCloud class="Cloud-logo" size="sm"/>
+             <img src={look} width="300"
+               height="120" className="image-style6" alt="logo" />
           </div>
-          <div class="col">
-           <FaCloud class="Cloud-logo2" size="lg"/>
 
-          <FaCloud class="Cloud-logo" size="sm"/>
-          </div>
         </div>
       </div>
       <Footer/>

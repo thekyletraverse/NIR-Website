@@ -17,25 +17,25 @@ export default function Shop() {
        <div class="row justify-content-center">
          <div style={{padding:"100px", textAlign:"center"}} class="col">
            <img class="image-style4"src={design1} width="450" height="270"/>
-           <text style={{padding:"35px"}} class="button-style h2">$20</text>
+           <text style={{padding:"45px"}} class="button-style h2">$20</text>
            <text class="button-style h2">White "Texting While Driving" T-Shirt</text>
            <a href="">
-             <i class="button-style"><FaShopify/></i>
+             <i class="button-style fa-2x"><FaShopify/></i>
            </a>
          </div>
 
          <div style={{padding:"200px", textAlign:"center"}} class="col justify-content-md-center">
            <img class="image-style4"src={design2} width="450" height="270"/>
-           <text style={{padding:"30px"}} class="button-style h2">$20</text>
+           <text style={{padding:"40px"}} class="button-style h2">$20</text>
            <text  class="button-style h2">Tan "Tim Foil Face" T-Shirt</text>
            <a href="">
-             <i class="button-style"><FaShopify/></i>
+             <i class="button-style fa-2x"><FaShopify/></i>
            </a>
        </div>
        <div class="row justify-content-center">
          <div style={{padding:"110px", textAlign:"center"}} class="col">
            <img class="image-style4"src={tap} width="470" height="270"/>
-           <text style={{padding:"35px"}} class="button-style h2">Coming Soon</text>
+           <text style={{padding:"45px"}} class="button-style h2">Coming Soon</text>
            <text class="button-style h2">Nothing Iconic Tapestry</text>
 
          </div>
