@@ -28,22 +28,74 @@ function Home() {
   return (
     <div>
       <div className="App-header">
-        <div>
+        <div class="row">
           <div style={{ height: 145, marginTop: 10 }}class="col">
-          <img src={notta} width="250"
-            height="200" className="App-logo" alt="logo" />
-            <img src={monst} width="300"
-              height="120" className="image-style6" alt="logo" />
-              <img src={splat} width="300"
-                height="120" className="image-style6" alt="logo" />
+
           </div>
+
+          <div style={{ height: 145, marginTop: 10 }}class="col">
+
+          </div>
+
+          <div style={{ height: 145, marginTop: 10 }}class="col">
+        
+          </div>
+        </div>
+
+        <div class="row">
+
           <div class="col">
-          <img src={look} width="190"
-            height="120" className="App-logo" alt="logo"  />
+
              <FaCloud class="Cloud-logo"size="lg"/>
-             <FaCloud class="Cloud-logo3" size="lg"/>
+
              <FaCloud class="Cloud-logo2" size="lg"/>
+
+          </div>
+
+          <div class="col">
+          <img src={monst} width="300"
+              height="120" className="image-style6" alt="logo" />
+
+             <FaCloud class="Cloud-logo3" size="lg"/>
+
              <FaCloud class="Cloud-logo" size="sm"/>
+          </div>
+
+          <div class="col">
+
+             <FaCloud class="Cloud-logo"size="lg"/>
+
+
+
+          </div>
+
+        </div>
+        <div class="row">
+
+          <div class="col">
+
+             <FaCloud class="Cloud-logo"size="lg"/>
+
+             <FaCloud class="Cloud-logo2" size="lg"/>
+
+          </div>
+
+          <div class="col">
+
+            <img src={splat} width="300"
+                  height="120" className="image-style6" alt="logo" />
+
+             <FaCloud class="Cloud-logo3" size="lg"/>
+
+             <FaCloud class="Cloud-logo" size="sm"/>
+          </div>
+
+          <div class="col">
+
+             <FaCloud class="Cloud-logo"size="lg"/>
+
+             <FaCloud class="Cloud-logo2" size="lg"/>
+
           </div>
 
         </div>
