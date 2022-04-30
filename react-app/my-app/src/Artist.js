@@ -101,7 +101,7 @@ export default function Artist() {
 
              <img class="image-style" src={kyle} width="300" height="120"/>
              <h1 style={{padding:"40px",textAlign:"center"}} class="h2">KYLE TRAVERSE</h1>
-             <a href="https://www.instagram.com/thekyletraverse/?utm_source=ig_embed&amp;utm_campaign=loading">
+             <a href="https://www.instagram.com/thetimfoil/?utm_source=ig_embed&amp;utm_campaign=loading">
              <i class="button-style"><FaInstagram/></i>
              </a>
              <a href="https://twitter.com/TheKyleTraverse?s=20&t=GBPCVAbq8lpdNN0hEMEIrw">
@@ -130,7 +130,7 @@ export default function Artist() {
              <a href="https://linktr.ee/timfoil">
              <h1 style={{padding:"1px",textAlign:"center"}} class="h2">Official Site</h1>
              </a>
-             <a href="https://www.instagram.com/thekyletraverse/?utm_source=ig_embed&amp;utm_campaign=loading">
+             <a href="https://www.instagram.com/thetimfoil/?utm_source=ig_embed&amp;utm_campaign=loading">
              <i class="button-style"><FaInstagram/></i>
              </a>
              <a href="https://twitter.com/TheKyleTraverse?s=20&t=GBPCVAbq8lpdNN0hEMEIrw">
