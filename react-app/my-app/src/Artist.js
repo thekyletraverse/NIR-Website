@@ -12,7 +12,7 @@ import pig from './ArtistIMG/Screen Shot 2022-04-26 at 8.33.13 PM.png'
 import kyle from './ArtistIMG/IMG_3348.jpg'
 import just from './ArtistIMG/IMG_0579.jpg'
 import jay from './ArtistIMG/IMG_0580.jpg'
-import boat from './ArtistIMG/Screen Shot 2022-04-26 at 8.56.49 PM.png'
+import boat from './ArtistIMG/IMG_0586.jpg'
 import Footer from './footer'
 import { Button, Container} from 'react-bootstrap'
 import 'font-awesome/css/font-awesome.min.css';
