@@ -10,6 +10,7 @@ import Artist from './Artist'
 import Videos from './Videos'
 import Shop from './Shop'
 import Contact from './Contact'
+import Events from './Events'
 
 
 ReactDOM.render(
@@ -22,6 +23,7 @@ ReactDOM.render(
         <Route exact path="/music" element={<Music />} />
         <Route exact path="/videos" element={<Videos/>} />
         <Route exact path="/shop" element={<Shop/>} />
+        <Route exact path="/events" element={<Events/>} />
         <Route exact path="/contact" element={<Contact/>} />
       </Routes>
     </Router>

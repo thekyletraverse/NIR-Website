@@ -94,6 +94,17 @@ textAlign: center;
     color: white;
 }
 
+.events{
+  background-color: #F06292;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
 .button-style {
   border: none;
   padding: 10px;
