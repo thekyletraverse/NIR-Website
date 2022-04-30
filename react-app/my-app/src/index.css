@@ -73,7 +73,7 @@ textAlign: center;
 }
 
 .con{
-  background-color: #BA68C8;
+  background-color: #F06292;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -95,7 +95,7 @@ textAlign: center;
 }
 
 .events{
-  background-color: #F06292;
+  background-color: #9919E1;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
