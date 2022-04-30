@@ -3,7 +3,7 @@ import { Button, Navbar, Container, Form, FormControl} from 'react-bootstrap'
 import { Link, Router, Route } from "react-router-dom";
 import Nav from "react-bootstrap/Nav";
 import { LinkContainer } from "react-router-bootstrap";
-import { FaInstagram, FaTwitter, FaYoutube} from 'react-icons/fa';
+import { FaInstagram, FaTwitter, FaYoutube, FaTiktok} from 'react-icons/fa';
 
 
 const Navigation = () => {
@@ -36,18 +36,21 @@ const Navigation = () => {
         <Nav.Link>Contact</Nav.Link>
       </LinkContainer>
     </Nav>
-    <Nav style={{padding:"75px"}}>
-    
+    <Nav style={{padding:"85px"}}>
+
           </Nav>
-    <Nav style={{padding:"75px"}}>
+    <Nav style={{padding:"65px"}}>
     <a href="https://www.instagram.com/nothingiconicrecords/?utm_source=ig_embed&amp;utm_campaign=loading">
     <i class="button-style2 fa-2x"><FaInstagram/></i>
     </a>
     <a href="https://twitter.com/IconicNothing?s=20&t=QV86wjoDvNA5AsHq9WAatA">
      <i class="button-style2 fa-2x"><FaTwitter/></i>
     </a>
-    <a href="https://twitter.com/Jp__Shannon?s=20&t=GBPCVAbq8lpdNN0hEMEIrw">
+    <a href="https://www.youtube.com/channel/UC2AzD8D49H8l4p7lSyntp8Q">
      <i class="button-style2 fa-2x"><FaYoutube/></i>
+    </a>
+    <a href="https://www.tiktok.com/@nothingiconicrecords?is_from_webapp=1&sender_device=pc">
+     <i class="button-style2 fa-2x"><FaTiktok/></i>
     </a>
           </Nav>
     </Navbar.Collapse>
