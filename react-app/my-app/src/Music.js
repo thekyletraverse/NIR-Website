@@ -186,8 +186,6 @@ export default function Music() {
             </a>
           </div>
 
-
-
         </div>
 
         <div style={{padding:"10px"}} class="row">
@@ -215,7 +213,7 @@ export default function Music() {
             <a href="https://music.apple.com/us/album/erase-me-single/1544726144">
               <i style={{padding:"30px"}} class="button-style"><FaApple/></i>
             </a>
-            <a href="https://open.spotify.com/album/5ZgaezFXJujWw714KCId6D?si=XdO7z4WUSxOZcy4ee0tNjw">
+            <a href="https://open.spotify.com/album/2Sv48TSTUopYce5smC9XLY?si=Azvb2K06TyKqe0oh-H2WJA">
               <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
             </a>
             <a href="https://soundcloud.com/wasteddazemusic/meadowlark?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">
@@ -227,7 +225,7 @@ export default function Music() {
             <a href="https://music.apple.com/us/album/in-season-single/1541424642">
               <i style={{padding:"30px"}} class="button-style"><FaApple/></i>
             </a>
-            <a href="https://open.spotify.com/album/5ZgaezFXJujWw714KCId6D?si=XdO7z4WUSxOZcy4ee0tNjw">
+            <a href="https://open.spotify.com/album/45nt4q8MzEY9awg14rMWgS?si=1h5W4l_MRhK9fkHLnGMppw">
               <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
             </a>
           </div>
@@ -240,7 +238,7 @@ export default function Music() {
           <a href="https://music.apple.com/us/album/yooo-big-bibe-single/1538626473">
             <i style={{padding:"30px"}} class="button-style"><FaApple/></i>
           </a>
-          <a href="https://open.spotify.com/album/5ZgaezFXJujWw714KCId6D?si=XdO7z4WUSxOZcy4ee0tNjw">
+          <a href="https://open.spotify.com/album/3xlhKlvcAEH4h3vighwGEi?si=9Tb6Sm2mSGyjHfLrgHwBjQ">
             <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
           </a>
           </div>
@@ -249,8 +247,11 @@ export default function Music() {
             <a href="https://music.apple.com/us/album/past-the-sun-single/1536514395">
               <i style={{padding:"30px"}} class="button-style"><FaApple/></i>
             </a>
-            <a href="https://open.spotify.com/album/7gj4GfSki9Cos0OL9D3WOu?si=mP5UO-i7QCOgI5HF9nOObg">
+            <a href="https://open.spotify.com/album/4Dkzr0IMEzvqsUknlwAXxP?si=eXWGggk2RVKdKtBcXA1oog">
               <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
+            </a>
+            <a href="https://soundcloud.com/timfoil/past-the-sun?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">
+              <i style={{padding:"30px"}} class="button-style"><FaSoundcloud/></i>
             </a>
           </div>
           <div style={{padding:"20px", textAlign:"center"}} class="col">
@@ -268,8 +269,11 @@ export default function Music() {
             <a href="https://music.apple.com/us/album/buttercup-feat-group-kevin-zinadelphia-single/1535734929">
               <i style={{padding:"30px"}} class="button-style"><FaApple/></i>
             </a>
-            <a href="https://open.spotify.com/album/0fo0c8QVjt2RmTjOOfVHTP?si=3IIP0mlXRPOb4QPAMjpvsg">
+            <a href="https://open.spotify.com/album/5pUKEYL8U5RymHmAVYiUuD?si=K0XdqCgIQE2jPVHdO0eiPw">
               <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
+            </a>
+            <a href="https://soundcloud.com/timfoil/buttercup-feat-group-kevin-and-zinadelphia?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">
+              <i style={{padding:"30px"}} class="button-style"><FaSoundcloud/></i>
             </a>
           </div>
         </div>
@@ -281,10 +285,10 @@ export default function Music() {
           <a href="https://music.apple.com/us/album/miss-mallouk-single/1534269937">
             <i style={{padding:"30px"}} class="button-style"><FaApple/></i>
           </a>
-          <a href="https://open.spotify.com/album/5G1ldHZMeD5kDIWLkJBIKS?si=oB4WwMKVSCeymE1b03w6Fw">
+          <a href="https://open.spotify.com/album/2So6VHa2wbTjNp7PYhO73t?si=CnepAfDtR0Sbn-6vwN0yVA">
             <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
           </a>
-          <a href="https://soundcloud.com/peer-pressure-476721134/sets/harlequin-book?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">
+          <a href="https://soundcloud.com/timfoil/miss-mallouk?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">
             <i style={{padding:"30px"}} class="button-style"><FaSoundcloud/></i>
           </a>
           </div>
@@ -297,7 +301,7 @@ export default function Music() {
 
           <div style={{padding:"20px", textAlign:"center"}} class="col">
             <img class="image-style2" src={food} width="300" height="120"/>
-            <a href="https://soundcloud.com/nothingiconicrecords/sets/grass-alley-bowling-green?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">
+            <a href="https://soundcloud.com/nothingiconicrecords/sets/food-vol-i-hunter-livsey?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">
               <i style={{padding:"30px"}} class="button-style"><FaSoundcloud/></i>
             </a>
           </div>
@@ -358,7 +362,7 @@ export default function Music() {
 
           <div style={{padding:"20px", textAlign:"center"}} class="col">
           <img class="image-style2" src={steve} width="300" height="120"/>
-          <a href="https://soundcloud.com/wasteddazemusic/sets/bummerjams-vol-ii?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">
+          <a href="https://soundcloud.com/nothingiconicrecords/stevens-theory-derf-lloyd?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">
             <i style={{padding:"30px"}} class="button-style"><FaSoundcloud/></i>
           </a>
           </div>
@@ -381,7 +385,7 @@ export default function Music() {
 
           <div style={{padding:"20px", textAlign:"center"}} class="col">
             <img class="image-style2" src={wtf} width="300" height="120"/>
-              <a href="https://soundcloud.com/wasteddazemusic/sets/cacophony?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">
+              <a href="https://soundcloud.com/quentinx2/wtfiu-feat-corduroyboy?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">
                 <i style={{padding:"30px"}} class="button-style"><FaSoundcloud/></i>
               </a>
           </div>
@@ -397,7 +401,7 @@ export default function Music() {
         <a href="https://open.spotify.com/album/2UF4Rfr4zoj84B8QGpxHEd?si=DF5gl8IcTeuZ6Ack3rFqHg">
           <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
         </a>
-        <a href="https://soundcloud.com/wasteddazemusic/sets/bummerjams-vol-ii?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">
+        <a href="https://soundcloud.com/stickycowking/my-first-remix?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">
           <i style={{padding:"30px"}} class="button-style"><FaSoundcloud/></i>
         </a>
         </div>
@@ -415,13 +419,13 @@ export default function Music() {
         </div>
         <div style={{padding:"20px", textAlign:"center"}} class="col">
           <img class="image-style2" src={world} width="300" height="120"/>
-          <a href="https://soundcloud.com/nothingiconicrecords/sets/vibrant-bowling-green?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">
+          <a href="https://soundcloud.com/nothingiconicrecords/francis-saves-the-world-francis?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">
             <i style={{padding:"30px"}} class="button-style"><FaSoundcloud/></i>
           </a>
         </div>
         <div style={{padding:"20px", textAlign:"center"}} class="col">
           <img class="image-style2" src={fab} width="300" height="120"/>
-            <a href="https://soundcloud.com/wasteddazemusic/sets/cacophony?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">
+            <a href="https://soundcloud.com/nothingiconicrecords/sets/fab_decade?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">
               <i style={{padding:"30px"}} class="button-style"><FaSoundcloud/></i>
             </a>
         </div>
@@ -440,8 +444,6 @@ export default function Music() {
           <i style={{padding:"30px"}} class="button-style"><FaSoundcloud/></i>
         </a>
         </div>
-
-
         <div style={{padding:"20px", textAlign:"center"}} class="col">
           <img class="image-style2" src={who} width="300" height="120"/>
           <a href="https://music.apple.com/us/album/who-the-hell-is-justin-schwartz-ep/1486130821">
@@ -540,7 +542,7 @@ export default function Music() {
           <a href="https://open.spotify.com/album/028W1qbVdcUKw0LGknzmTT?si=oYDBQV0ZQ7uWI815TdUCRw">
             <i style={{padding:"30px"}} class="button-style"><FaSpotify/></i>
           </a>
-          <a href="https://soundcloud.com/nothingiconicrecords/sets/vibrant-bowling-green?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">
+          <a href="https://soundcloud.com/user-602837373/sets/bittersweet?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">
             <i style={{padding:"30px"}} class="button-style"><FaSoundcloud/></i>
           </a>
         </div>
