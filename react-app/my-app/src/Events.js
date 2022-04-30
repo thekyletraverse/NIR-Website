@@ -7,13 +7,19 @@ import Footer from './footer'
 import SimpleImageSlider from "react-simple-image-slider";
 import 'react-slideshow-image/dist/styles.css'
 import image1 from './Events/IMG_9637.JPEG';
-import image2 from './Events/E448AC69-7EC9-4517-AB7B-25ABCA5243B8.JPG';
-import image3 from './Events/IMG_9611.JPEG'
+import image2 from './Events/IMG_0604.jpg';
+import image3 from './Events/IMG_0610.jpg'
+
+import image6 from './Events/IMG_0607.jpg'
+import image7 from './Events/IMG_0611.jpg'
 
 const images = [
+    { url: image3 },
   { url: image1 },
   { url: image2 },
-  { url: image3 },
+
+{ url: image6 },
+{ url: image7 },
 
 ];
 export default function Events() {
