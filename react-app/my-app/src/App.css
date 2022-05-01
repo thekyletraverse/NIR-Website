@@ -126,6 +126,7 @@ color: white;
    animation-duration: 5s;
    animation-iteration-count: infinite;
    animation-timing-function: ease-in-out;
+   border-radius: 30px;
 }
 
 .image-style6{

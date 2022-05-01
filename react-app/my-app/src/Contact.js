@@ -10,7 +10,7 @@ export default function Contact() {
     <div>
     <div class="con">
     <h1 style={{padding:"30px"}} class="h1">CONTACT</h1>
-    <div style={{padding:"10px"}} class="row">
+    <div style={{padding:"20px"}} class="row">
       <div style={{padding:"20px"}} class="col me-2">
     <ReactMailchimpEmailSignupForm
        className="subscribe-container"
